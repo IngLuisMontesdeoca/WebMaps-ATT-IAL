@@ -1,0 +1,89 @@
+#No muestra los archivos de indice
+Options -Indexes
+
+#Reglas mod_rewrite
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+#RUTAS SITIO
+   #Login
+   Rewriterule ^Login?$ /vistasDinamicas/Login/login.php
+   Rewriterule ^Mobile?$ /vistasDinamicas/Login/login.php
+   Rewriterule ^Password?$ /vistasDinamicas/Login/password.php
+   Rewriterule ^EnviaCorreo?$ /modelo/AJAX/Login/enviaCorreo.php
+   Rewriterule ^ValidaUsr?$ /modelo/AJAX/Login/valida.php
+   Rewriterule ^CerrarSesion?$ /modelo/AJAX/Login/cerrarSesion.php
+   Rewriterule ^SetPassword?$ /modelo/AJAX/Login/setPassword.php
+   Rewriterule ^SingleSession?$ /modelo/AJAX/Login/singleSession.php
+
+   #Valida usuario
+   Rewriterule ^ConsultarUsuario?$ /modelo/AJAX/Usuario/consultarUsuario.php
+   Rewriterule ^EliminarUsuario?$ /modelo/AJAX/Usuario/eliminarUsuario.php
+   Rewriterule ^GuardarUsuario?$ /modelo/AJAX/Usuario/guardarUsuario.php
+   Rewriterule ^EditarUsuario?$ /modelo/AJAX/Usuario/editarUsuario.php
+   Rewriterule ^ModuloUsuario?$ /modelo/AJAX/Usuario/moduloUsuario.php
+
+
+   #Modelo Equipo
+   Rewriterule ^ConsultarEquipo?$ /modelo/AJAX/Equipo/consultarEquipo.php
+   Rewriterule ^GuardarCuenta?$ /modelo/AJAX/Equipo/guardarCuenta.php
+   Rewriterule ^GuardarCliente?$ /modelo/AJAX/Equipo/guardarCliente.php
+   Rewriterule ^CargarCuenta?$ /modelo/AJAX/Equipo/cargarCuenta.php
+   Rewriterule ^EliminarEquipo?$ /modelo/AJAX/Equipo/eliminarEquipo.php
+   Rewriterule ^GuardarEquipo?$ /modelo/AJAX/Equipo/guardarEquipo.php
+   Rewriterule ^SuspenderEquipo?$ /modelo/AJAX/Equipo/suspenderEquipo.php
+   Rewriterule ^ModuloEquipo?$ /modelo/AJAX/Equipo/moduloEquipo.php
+   Rewriterule ^ReactivarEquipo?$ /modelo/AJAX/Equipo/reactivarEquipo.php
+   Rewriterule ^EditarEquipo?$ /modelo/AJAX/Equipo/editarEquipo.php
+
+
+   #Logs
+   Rewriterule ^ConsultarLog?$ /modelo/AJAX/Log/consultarLog.php
+   Rewriterule ^ModuloLog?$ /modelo/AJAX/Log/moduloLog.php
+   Rewriterule ^ActDesUsuario?$ /modelo/AJAX/Log/actDesUsuario.php
+    
+   #Reportes
+   Rewriterule ^ConsultarCobros?$ /modelo/AJAX/Reportes/getReporteCobros.php
+   Rewriterule ^ExportarCobros?$ /modelo/AJAX/Reportes/exportReporteCobros.php
+
+   #Contacto
+   Rewriterule ^AgregarContacto?$ /modelo/AJAX/Contacto/agregarContacto.php
+   Rewriterule ^EliminarContacto?$ /modelo/AJAX/Contacto/eliminarContacto.php
+   Rewriterule ^LayerContacto?$ /modelo/AJAX/Contacto/layerContacto.php
+   Rewriterule ^EditarContacto?$ /modelo/AJAX/Contacto/editarContacto.php
+
+   #ConfiguracionEnvio
+   Rewriterule ^AgregarConfiguracion?$ /modelo/AJAX/ConfiguracionEnvio/agregarConfiguracion.php
+   Rewriterule ^LayerConfiguracion?$ /modelo/AJAX/ConfiguracionEnvio/layerConfiguracion.php
+
+
+   #Vista dinamica
+   Rewriterule ^Home?$ /vistasDinamicas/Home/home.php	  
+
+
+#Redireccion de errores del Servidor
+	#Acceso Denegado
+		ErrorDocument 403 /vistas/errors/403.html
+	#No se encuentra el archivo
+		ErrorDocument 404 /vistas/errors/404.html
+	#Error de servidor
+		ErrorDocument 500 /vistas/errors/500.html
+
+#Asegurar acceso a Paquetes
+<Files getPackage.php>
+	order allow,deny
+	deny from all
+</Files>
+
+#Asegurar Paquetes
+<Files /include/classes/Packages/Package.class.php>
+	order allow,deny
+	deny from all
+</Files>
+
+#Asegurar htaccess
+<Files .htaccess>
+	order allow,deny
+	deny from all
+</Files>

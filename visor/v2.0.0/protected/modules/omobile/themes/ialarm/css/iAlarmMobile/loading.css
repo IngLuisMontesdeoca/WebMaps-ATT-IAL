@@ -1,0 +1,10 @@
+div#loading {
+    top: 200 px;
+    margin: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 160px;
+    height: 40px;
+    background: url(../../../../../../../protected/modules/omobile/themes/ialarm/images/iAlarmMobile/loading.gif) no-repeat;
+    cursor: wait;
+    }

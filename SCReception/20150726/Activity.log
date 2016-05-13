@@ -1,0 +1,418 @@
+00:35:20 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+00:35:20 - 26/07/2015 00:35:20: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528117625195 | smsServiceActivationNumber: 425276
+00:35:20 - BD|H=528117625195|El equipo no existe en BD|notifySmsReception
+00:35:20 - BD|H=528117625195|Guardando equipo en BD en BD|notifySmsReception
+00:35:20 - BD|OK|PTN=528117625195|Guardando equipo en base de datos|saveHandsetSC
+00:35:20 - BD|OK|H=4130|PTN=528117625195|Equipo guardado correctamente|saveHandsetSC
+00:35:20 - BD|OK|H=4130|PTN=528117625195|Guardando en dat_estatuspayment|saveHandsetSC
+00:35:20 - BD|OK|H=4130|PTN=528117625195|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+00:35:20 - BD|H=528117625195|ID=4130|Equipo guardado correctamente en BD|notifySmsReception
+00:35:20 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+00:35:20 - 26/07/2015 00:35:20: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528117625195 | smsServiceActivationNumber: 425276
+00:35:20 - BD|H=528117625195|El equipo ya existe en BD|notifySmsReception
+00:35:20 - BD|H=528117625195|Contrato por evento|Procesando cobro|notifySmsReception
+00:35:41 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+00:35:41 - 26/07/2015 00:35:41: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316123866 | smsServiceActivationNumber: 425276
+00:35:41 - BD|H=523316123866|El equipo ya existe en BD|notifySmsReception
+00:35:41 - BD|H=523316123866|Contrato por evento|Procesando cobro|notifySmsReception
+00:35:41 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+00:35:41 - 26/07/2015 00:35:41: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316123866 | smsServiceActivationNumber: 425276
+00:35:41 - BD|H=523316123866|El equipo ya existe en BD|notifySmsReception
+00:35:41 - BD|H=523316123866|Contrato por evento|Procesando cobro|notifySmsReception
+07:49:06 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+07:49:06 - 26/07/2015 07:49:06: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 522282651403 | smsServiceActivationNumber: 425276
+07:49:06 - BD|H=522282651403|El equipo no existe en BD|notifySmsReception
+07:49:06 - BD|H=522282651403|Guardando equipo en BD en BD|notifySmsReception
+07:49:06 - BD|OK|PTN=522282651403|Guardando equipo en base de datos|saveHandsetSC
+07:49:06 - BD|OK|H=4131|PTN=522282651403|Equipo guardado correctamente|saveHandsetSC
+07:49:06 - BD|OK|H=4131|PTN=522282651403|Guardando en dat_estatuspayment|saveHandsetSC
+07:49:06 - BD|OK|H=4131|PTN=522282651403|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+07:49:06 - BD|H=522282651403|ID=4131|Equipo guardado correctamente en BD|notifySmsReception
+07:49:06 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+07:49:06 - 26/07/2015 07:49:06: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 522282651403 | smsServiceActivationNumber: 425276
+07:49:06 - BD|H=522282651403|El equipo ya existe en BD|notifySmsReception
+07:49:06 - BD|H=522282651403|Contrato por evento|Procesando cobro|notifySmsReception
+08:58:10 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+08:58:10 - 26/07/2015 08:58:10: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524423914458 | smsServiceActivationNumber: 425276
+08:58:10 - BD|H=524423914458|El equipo ya existe en BD|notifySmsReception
+08:58:10 - BD|H=524423914458|Contrato por evento|Procesando cobro|notifySmsReception
+08:58:10 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+08:58:10 - 26/07/2015 08:58:10: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524423914458 | smsServiceActivationNumber: 425276
+08:58:10 - BD|H=524423914458|El equipo ya existe en BD|notifySmsReception
+08:58:10 - BD|H=524423914458|Contrato por evento|Procesando cobro|notifySmsReception
+10:04:41 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+10:04:41 - 26/07/2015 10:04:41: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524612121058 | smsServiceActivationNumber: 425276
+10:04:41 - BD|H=524612121058|El equipo ya existe en BD|notifySmsReception
+10:04:41 - BD|H=524612121058|Contrato por evento|Procesando cobro|notifySmsReception
+10:04:41 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+10:04:41 - 26/07/2015 10:04:41: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524612121058 | smsServiceActivationNumber: 425276
+10:04:41 - BD|H=524612121058|El equipo ya existe en BD|notifySmsReception
+10:04:41 - BD|H=524612121058|Contrato por evento|Procesando cobro|notifySmsReception
+10:18:38 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+10:18:38 - 26/07/2015 10:18:38: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524612121058 | smsServiceActivationNumber: 425276
+10:18:38 - BD|H=524612121058|El equipo ya existe en BD|notifySmsReception
+10:18:38 - BD|H=524612121058|Contrato por evento|Procesando cobro|notifySmsReception
+10:18:38 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+10:18:38 - 26/07/2015 10:18:38: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524612121058 | smsServiceActivationNumber: 425276
+10:18:38 - BD|H=524612121058|El equipo ya existe en BD|notifySmsReception
+10:18:38 - BD|H=524612121058|Contrato por evento|Procesando cobro|notifySmsReception
+10:58:37 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+10:58:37 - 26/07/2015 10:58:37: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 527772380351 | smsServiceActivationNumber: 425276
+10:58:37 - BD|H=527772380351|El equipo no existe en BD|notifySmsReception
+10:58:37 - BD|H=527772380351|Guardando equipo en BD en BD|notifySmsReception
+10:58:37 - BD|OK|PTN=527772380351|Guardando equipo en base de datos|saveHandsetSC
+10:58:37 - BD|OK|H=4132|PTN=527772380351|Equipo guardado correctamente|saveHandsetSC
+10:58:37 - BD|OK|H=4132|PTN=527772380351|Guardando en dat_estatuspayment|saveHandsetSC
+10:58:37 - BD|OK|H=4132|PTN=527772380351|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+10:58:37 - BD|H=527772380351|ID=4132|Equipo guardado correctamente en BD|notifySmsReception
+10:58:37 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+10:58:37 - 26/07/2015 10:58:37: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 527772380351 | smsServiceActivationNumber: 425276
+10:58:37 - BD|H=527772380351|El equipo ya existe en BD|notifySmsReception
+10:58:37 - BD|H=527772380351|Contrato por evento|Procesando cobro|notifySmsReception
+11:22:43 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+11:22:43 - 26/07/2015 11:22:43: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524621122505 | smsServiceActivationNumber: 425276
+11:22:43 - BD|H=524621122505|El equipo no existe en BD|notifySmsReception
+11:22:43 - BD|H=524621122505|Guardando equipo en BD en BD|notifySmsReception
+11:22:43 - BD|OK|PTN=524621122505|Guardando equipo en base de datos|saveHandsetSC
+11:22:43 - BD|OK|H=4133|PTN=524621122505|Equipo guardado correctamente|saveHandsetSC
+11:22:43 - BD|OK|H=4133|PTN=524621122505|Guardando en dat_estatuspayment|saveHandsetSC
+11:22:43 - BD|OK|H=4133|PTN=524621122505|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+11:22:43 - BD|H=524621122505|ID=4133|Equipo guardado correctamente en BD|notifySmsReception
+11:22:43 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+11:22:43 - 26/07/2015 11:22:43: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524621122505 | smsServiceActivationNumber: 425276
+11:22:43 - BD|H=524621122505|El equipo ya existe en BD|notifySmsReception
+11:22:43 - BD|H=524621122505|Contrato por evento|Procesando cobro|notifySmsReception
+12:20:47 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+12:20:47 - 26/07/2015 12:20:47: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 527821555236 | smsServiceActivationNumber: 425276
+12:20:47 - BD|H=527821555236|El equipo no existe en BD|notifySmsReception
+12:20:47 - BD|H=527821555236|Guardando equipo en BD en BD|notifySmsReception
+12:20:47 - BD|OK|PTN=527821555236|Guardando equipo en base de datos|saveHandsetSC
+12:20:47 - BD|OK|H=4134|PTN=527821555236|Equipo guardado correctamente|saveHandsetSC
+12:20:47 - BD|OK|H=4134|PTN=527821555236|Guardando en dat_estatuspayment|saveHandsetSC
+12:20:47 - BD|OK|H=4134|PTN=527821555236|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+12:20:47 - BD|H=527821555236|ID=4134|Equipo guardado correctamente en BD|notifySmsReception
+12:20:48 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+12:20:48 - 26/07/2015 12:20:48: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 527821555236 | smsServiceActivationNumber: 425276
+12:20:48 - BD|H=527821555236|El equipo ya existe en BD|notifySmsReception
+12:20:48 - BD|H=527821555236|Contrato por evento|Procesando cobro|notifySmsReception
+13:01:21 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:01:21 - 26/07/2015 13:01:21: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:01:21 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:01:21 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:01:21 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:01:21 - 26/07/2015 13:01:21: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:01:21 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:01:21 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:01:41 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:01:41 - 26/07/2015 13:01:41: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:01:41 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:01:41 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:01:41 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:01:41 - 26/07/2015 13:01:41: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:01:41 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:01:41 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:02:02 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:02:02 - 26/07/2015 13:02:02: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:02:02 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:02:02 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:02:02 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:02:02 - 26/07/2015 13:02:02: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:02:02 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:02:02 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:02:51 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:02:51 - 26/07/2015 13:02:51: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:02:51 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:02:51 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+13:02:51 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+13:02:51 - 26/07/2015 13:02:51: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524773262534 | smsServiceActivationNumber: 425276
+13:02:51 - BD|H=524773262534|El equipo ya existe en BD|notifySmsReception
+13:02:51 - BD|H=524773262534|Contrato por evento|Procesando cobro|notifySmsReception
+14:01:03 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+14:01:03 - 26/07/2015 14:01:03: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316687762 | smsServiceActivationNumber: 425276
+14:01:03 - BD|H=523316687762|El equipo ya existe en BD|notifySmsReception
+14:01:03 - BD|H=523316687762|Contrato por evento|Procesando cobro|notifySmsReception
+14:01:03 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+14:01:03 - 26/07/2015 14:01:03: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316687762 | smsServiceActivationNumber: 425276
+14:01:03 - BD|H=523316687762|El equipo ya existe en BD|notifySmsReception
+14:01:03 - BD|H=523316687762|Contrato por evento|Procesando cobro|notifySmsReception
+14:38:42 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+14:38:42 - 26/07/2015 14:38:42: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528672043576 | smsServiceActivationNumber: 425276
+14:38:42 - BD|H=528672043576|El equipo no existe en BD|notifySmsReception
+14:38:42 - BD|H=528672043576|Guardando equipo en BD en BD|notifySmsReception
+14:38:42 - BD|OK|PTN=528672043576|Guardando equipo en base de datos|saveHandsetSC
+14:38:42 - BD|OK|H=4135|PTN=528672043576|Equipo guardado correctamente|saveHandsetSC
+14:38:42 - BD|OK|H=4135|PTN=528672043576|Guardando en dat_estatuspayment|saveHandsetSC
+14:38:42 - BD|OK|H=4135|PTN=528672043576|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+14:38:42 - BD|H=528672043576|ID=4135|Equipo guardado correctamente en BD|notifySmsReception
+14:38:42 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+14:38:42 - 26/07/2015 14:38:42: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528672043576 | smsServiceActivationNumber: 425276
+14:38:42 - BD|H=528672043576|El equipo ya existe en BD|notifySmsReception
+14:38:42 - BD|H=528672043576|Contrato por evento|Procesando cobro|notifySmsReception
+14:42:49 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+14:42:49 - 26/07/2015 14:42:49: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 526563236504 | smsServiceActivationNumber: 425276
+14:42:49 - BD|H=526563236504|El equipo no existe en BD|notifySmsReception
+14:42:49 - BD|H=526563236504|Guardando equipo en BD en BD|notifySmsReception
+14:42:49 - BD|OK|PTN=526563236504|Guardando equipo en base de datos|saveHandsetSC
+14:42:49 - BD|OK|H=4136|PTN=526563236504|Equipo guardado correctamente|saveHandsetSC
+14:42:49 - BD|OK|H=4136|PTN=526563236504|Guardando en dat_estatuspayment|saveHandsetSC
+14:42:49 - BD|OK|H=4136|PTN=526563236504|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+14:42:49 - BD|H=526563236504|ID=4136|Equipo guardado correctamente en BD|notifySmsReception
+14:42:49 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+14:42:49 - 26/07/2015 14:42:49: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 526563236504 | smsServiceActivationNumber: 425276
+14:42:49 - BD|H=526563236504|El equipo ya existe en BD|notifySmsReception
+14:42:49 - BD|H=526563236504|Contrato por evento|Procesando cobro|notifySmsReception
+15:17:38 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:17:38 - 26/07/2015 15:17:38: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 522225392468 | smsServiceActivationNumber: 425276
+15:17:38 - BD|H=522225392468|El equipo ya existe en BD|notifySmsReception
+15:17:38 - BD|H=522225392468|Contrato por evento|Procesando cobro|notifySmsReception
+15:17:38 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:17:38 - 26/07/2015 15:17:38: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 522225392468 | smsServiceActivationNumber: 425276
+15:17:38 - BD|H=522225392468|El equipo ya existe en BD|notifySmsReception
+15:17:38 - BD|H=522225392468|Contrato por evento|Procesando cobro|notifySmsReception
+15:30:08 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:30:08 - 26/07/2015 15:30:08: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525569588152 | smsServiceActivationNumber: 425276
+15:30:08 - BD|H=525569588152|El equipo no existe en BD|notifySmsReception
+15:30:08 - BD|H=525569588152|Guardando equipo en BD en BD|notifySmsReception
+15:30:08 - BD|OK|PTN=525569588152|Guardando equipo en base de datos|saveHandsetSC
+15:30:08 - BD|OK|H=4137|PTN=525569588152|Equipo guardado correctamente|saveHandsetSC
+15:30:08 - BD|OK|H=4137|PTN=525569588152|Guardando en dat_estatuspayment|saveHandsetSC
+15:30:08 - BD|OK|H=4137|PTN=525569588152|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+15:30:08 - BD|H=525569588152|ID=4137|Equipo guardado correctamente en BD|notifySmsReception
+15:30:09 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:30:09 - 26/07/2015 15:30:09: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525569588152 | smsServiceActivationNumber: 425276
+15:30:09 - BD|H=525569588152|El equipo ya existe en BD|notifySmsReception
+15:30:09 - BD|H=525569588152|Contrato por evento|Procesando cobro|notifySmsReception
+15:30:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:30:16 - 26/07/2015 15:30:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524491221798 | smsServiceActivationNumber: 425276
+15:30:16 - BD|H=524491221798|El equipo no existe en BD|notifySmsReception
+15:30:16 - BD|H=524491221798|Guardando equipo en BD en BD|notifySmsReception
+15:30:16 - BD|OK|PTN=524491221798|Guardando equipo en base de datos|saveHandsetSC
+15:30:16 - BD|OK|H=4138|PTN=524491221798|Equipo guardado correctamente|saveHandsetSC
+15:30:16 - BD|OK|H=4138|PTN=524491221798|Guardando en dat_estatuspayment|saveHandsetSC
+15:30:16 - BD|OK|H=4138|PTN=524491221798|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+15:30:16 - BD|H=524491221798|ID=4138|Equipo guardado correctamente en BD|notifySmsReception
+15:30:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:30:16 - 26/07/2015 15:30:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524491221798 | smsServiceActivationNumber: 425276
+15:30:16 - BD|H=524491221798|El equipo ya existe en BD|notifySmsReception
+15:30:16 - BD|H=524491221798|Contrato por evento|Procesando cobro|notifySmsReception
+15:45:17 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:45:17 - 26/07/2015 15:45:17: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528117581527 | smsServiceActivationNumber: 425276
+15:45:17 - BD|H=528117581527|El equipo no existe en BD|notifySmsReception
+15:45:17 - BD|H=528117581527|Guardando equipo en BD en BD|notifySmsReception
+15:45:17 - BD|OK|PTN=528117581527|Guardando equipo en base de datos|saveHandsetSC
+15:45:17 - BD|OK|H=4139|PTN=528117581527|Equipo guardado correctamente|saveHandsetSC
+15:45:17 - BD|OK|H=4139|PTN=528117581527|Guardando en dat_estatuspayment|saveHandsetSC
+15:45:17 - BD|OK|H=4139|PTN=528117581527|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+15:45:17 - BD|H=528117581527|ID=4139|Equipo guardado correctamente en BD|notifySmsReception
+15:45:17 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:45:17 - 26/07/2015 15:45:17: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528117581527 | smsServiceActivationNumber: 425276
+15:45:17 - BD|H=528117581527|El equipo ya existe en BD|notifySmsReception
+15:45:17 - BD|H=528117581527|Contrato por evento|Procesando cobro|notifySmsReception
+15:47:59 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:47:59 - 26/07/2015 15:47:59: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525530970835 | smsServiceActivationNumber: 425276
+15:47:59 - BD|H=525530970835|El equipo no existe en BD|notifySmsReception
+15:47:59 - BD|H=525530970835|Guardando equipo en BD en BD|notifySmsReception
+15:47:59 - BD|OK|PTN=525530970835|Guardando equipo en base de datos|saveHandsetSC
+15:47:59 - BD|OK|H=4140|PTN=525530970835|Equipo guardado correctamente|saveHandsetSC
+15:47:59 - BD|OK|H=4140|PTN=525530970835|Guardando en dat_estatuspayment|saveHandsetSC
+15:47:59 - BD|OK|H=4140|PTN=525530970835|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+15:47:59 - BD|H=525530970835|ID=4140|Equipo guardado correctamente en BD|notifySmsReception
+15:47:59 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:47:59 - 26/07/2015 15:47:59: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525530970835 | smsServiceActivationNumber: 425276
+15:47:59 - BD|H=525530970835|El equipo ya existe en BD|notifySmsReception
+15:47:59 - BD|H=525530970835|Contrato por evento|Procesando cobro|notifySmsReception
+15:50:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:50:16 - 26/07/2015 15:50:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528993182036 | smsServiceActivationNumber: 425276
+15:50:16 - BD|H=528993182036|El equipo no existe en BD|notifySmsReception
+15:50:16 - BD|H=528993182036|Guardando equipo en BD en BD|notifySmsReception
+15:50:16 - BD|OK|PTN=528993182036|Guardando equipo en base de datos|saveHandsetSC
+15:50:16 - BD|OK|H=4141|PTN=528993182036|Equipo guardado correctamente|saveHandsetSC
+15:50:16 - BD|OK|H=4141|PTN=528993182036|Guardando en dat_estatuspayment|saveHandsetSC
+15:50:16 - BD|OK|H=4141|PTN=528993182036|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+15:50:16 - BD|H=528993182036|ID=4141|Equipo guardado correctamente en BD|notifySmsReception
+15:50:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:50:16 - 26/07/2015 15:50:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528993182036 | smsServiceActivationNumber: 425276
+15:50:16 - BD|H=528993182036|El equipo ya existe en BD|notifySmsReception
+15:50:16 - BD|H=528993182036|Contrato por evento|Procesando cobro|notifySmsReception
+15:58:45 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:58:45 - 26/07/2015 15:58:45: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524434348728 | smsServiceActivationNumber: 425276
+15:58:45 - BD|H=524434348728|El equipo ya existe en BD|notifySmsReception
+15:58:45 - BD|H=524434348728|Contrato por evento|Procesando cobro|notifySmsReception
+15:58:46 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+15:58:46 - 26/07/2015 15:58:46: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524434348728 | smsServiceActivationNumber: 425276
+15:58:46 - BD|H=524434348728|El equipo ya existe en BD|notifySmsReception
+15:58:46 - BD|H=524434348728|Contrato por evento|Procesando cobro|notifySmsReception
+16:25:31 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+16:25:31 - 26/07/2015 16:25:31: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524612066075 | smsServiceActivationNumber: 425276
+16:25:31 - BD|H=524612066075|El equipo ya existe en BD|notifySmsReception
+16:25:31 - BD|H=524612066075|Contrato por evento|Procesando cobro|notifySmsReception
+16:25:31 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+16:25:31 - 26/07/2015 16:25:31: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524612066075 | smsServiceActivationNumber: 425276
+16:25:31 - BD|H=524612066075|El equipo ya existe en BD|notifySmsReception
+16:25:31 - BD|H=524612066075|Contrato por evento|Procesando cobro|notifySmsReception
+16:27:29 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+16:27:29 - 26/07/2015 16:27:29: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 529993084993 | smsServiceActivationNumber: 425276
+16:27:29 - BD|H=529993084993|El equipo ya existe en BD|notifySmsReception
+16:27:29 - BD|H=529993084993|Contrato por evento|Procesando cobro|notifySmsReception
+16:27:29 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+16:27:29 - 26/07/2015 16:27:29: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 529993084993 | smsServiceActivationNumber: 425276
+16:27:29 - BD|H=529993084993|El equipo ya existe en BD|notifySmsReception
+16:27:29 - BD|H=529993084993|Contrato por evento|Procesando cobro|notifySmsReception
+17:01:46 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+17:01:46 - 26/07/2015 17:01:46: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524432774160 | smsServiceActivationNumber: 425276
+17:01:46 - BD|H=524432774160|El equipo no existe en BD|notifySmsReception
+17:01:46 - BD|H=524432774160|Guardando equipo en BD en BD|notifySmsReception
+17:01:46 - BD|OK|PTN=524432774160|Guardando equipo en base de datos|saveHandsetSC
+17:01:46 - BD|OK|H=4142|PTN=524432774160|Equipo guardado correctamente|saveHandsetSC
+17:01:46 - BD|OK|H=4142|PTN=524432774160|Guardando en dat_estatuspayment|saveHandsetSC
+17:01:46 - BD|OK|H=4142|PTN=524432774160|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+17:01:46 - BD|H=524432774160|ID=4142|Equipo guardado correctamente en BD|notifySmsReception
+17:01:46 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+17:01:46 - 26/07/2015 17:01:46: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524432774160 | smsServiceActivationNumber: 425276
+17:01:46 - BD|H=524432774160|El equipo ya existe en BD|notifySmsReception
+17:01:46 - BD|H=524432774160|Contrato por evento|Procesando cobro|notifySmsReception
+17:09:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+17:09:16 - 26/07/2015 17:09:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525569215491 | smsServiceActivationNumber: 425276
+17:09:16 - BD|H=525569215491|El equipo no existe en BD|notifySmsReception
+17:09:16 - BD|H=525569215491|Guardando equipo en BD en BD|notifySmsReception
+17:09:16 - BD|OK|PTN=525569215491|Guardando equipo en base de datos|saveHandsetSC
+17:09:16 - BD|OK|H=4143|PTN=525569215491|Equipo guardado correctamente|saveHandsetSC
+17:09:16 - BD|OK|H=4143|PTN=525569215491|Guardando en dat_estatuspayment|saveHandsetSC
+17:09:16 - BD|OK|H=4143|PTN=525569215491|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+17:09:16 - BD|H=525569215491|ID=4143|Equipo guardado correctamente en BD|notifySmsReception
+17:09:17 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+17:09:17 - 26/07/2015 17:09:17: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525569215491 | smsServiceActivationNumber: 425276
+17:09:17 - BD|H=525569215491|El equipo ya existe en BD|notifySmsReception
+17:09:17 - BD|H=525569215491|Contrato por evento|Procesando cobro|notifySmsReception
+17:14:19 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+17:14:19 - 26/07/2015 17:14:19: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 527711935311 | smsServiceActivationNumber: 425276
+17:14:19 - BD|H=527711935311|El equipo ya existe en BD|notifySmsReception
+17:14:19 - BD|H=527711935311|Contrato por evento|Procesando cobro|notifySmsReception
+17:14:19 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+17:14:19 - 26/07/2015 17:14:19: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 527711935311 | smsServiceActivationNumber: 425276
+17:14:19 - BD|H=527711935311|El equipo ya existe en BD|notifySmsReception
+17:14:19 - BD|H=527711935311|Contrato por evento|Procesando cobro|notifySmsReception
+18:42:45 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+18:42:45 - 26/07/2015 18:42:45: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525545984826 | smsServiceActivationNumber: 425276
+18:42:45 - BD|H=525545984826|El equipo ya existe en BD|notifySmsReception
+18:42:45 - BD|H=525545984826|Contrato por evento|Procesando cobro|notifySmsReception
+18:42:45 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+18:42:45 - 26/07/2015 18:42:45: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525545984826 | smsServiceActivationNumber: 425276
+18:42:45 - BD|H=525545984826|El equipo ya existe en BD|notifySmsReception
+18:42:45 - BD|H=525545984826|Contrato por evento|Procesando cobro|notifySmsReception
+18:44:13 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+18:44:13 - 26/07/2015 18:44:13: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524424126414 | smsServiceActivationNumber: 425276
+18:44:13 - BD|H=524424126414|El equipo ya existe en BD|notifySmsReception
+18:44:13 - BD|H=524424126414|Contrato por evento|Procesando cobro|notifySmsReception
+18:44:14 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+18:44:14 - 26/07/2015 18:44:14: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524424126414 | smsServiceActivationNumber: 425276
+18:44:14 - BD|H=524424126414|El equipo ya existe en BD|notifySmsReception
+18:44:14 - BD|H=524424126414|Contrato por evento|Procesando cobro|notifySmsReception
+19:48:58 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+19:48:58 - 26/07/2015 19:48:58: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316687762 | smsServiceActivationNumber: 425276
+19:48:58 - BD|H=523316687762|El equipo ya existe en BD|notifySmsReception
+19:48:58 - BD|H=523316687762|Contrato por evento|Procesando cobro|notifySmsReception
+19:48:58 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+19:48:58 - 26/07/2015 19:48:58: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316687762 | smsServiceActivationNumber: 425276
+19:48:58 - BD|H=523316687762|El equipo ya existe en BD|notifySmsReception
+19:48:58 - BD|H=523316687762|Contrato por evento|Procesando cobro|notifySmsReception
+20:07:55 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+20:07:55 - 26/07/2015 20:07:55: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523320973155 | smsServiceActivationNumber: 425276
+20:07:55 - BD|H=523320973155|El equipo no existe en BD|notifySmsReception
+20:07:55 - BD|H=523320973155|Guardando equipo en BD en BD|notifySmsReception
+20:07:55 - BD|OK|PTN=523320973155|Guardando equipo en base de datos|saveHandsetSC
+20:07:55 - BD|OK|H=4144|PTN=523320973155|Equipo guardado correctamente|saveHandsetSC
+20:07:55 - BD|OK|H=4144|PTN=523320973155|Guardando en dat_estatuspayment|saveHandsetSC
+20:07:55 - BD|OK|H=4144|PTN=523320973155|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+20:07:55 - BD|H=523320973155|ID=4144|Equipo guardado correctamente en BD|notifySmsReception
+20:07:55 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+20:07:55 - 26/07/2015 20:07:55: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523320973155 | smsServiceActivationNumber: 425276
+20:07:55 - BD|H=523320973155|El equipo ya existe en BD|notifySmsReception
+20:07:55 - BD|H=523320973155|Contrato por evento|Procesando cobro|notifySmsReception
+20:28:07 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+20:28:07 - 26/07/2015 20:28:07: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528111570211 | smsServiceActivationNumber: 425276
+20:28:07 - BD|H=528111570211|El equipo no existe en BD|notifySmsReception
+20:28:07 - BD|H=528111570211|Guardando equipo en BD en BD|notifySmsReception
+20:28:07 - BD|OK|PTN=528111570211|Guardando equipo en base de datos|saveHandsetSC
+20:28:07 - BD|OK|H=4145|PTN=528111570211|Equipo guardado correctamente|saveHandsetSC
+20:28:07 - BD|OK|H=4145|PTN=528111570211|Guardando en dat_estatuspayment|saveHandsetSC
+20:28:07 - BD|OK|H=4145|PTN=528111570211|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+20:28:07 - BD|H=528111570211|ID=4145|Equipo guardado correctamente en BD|notifySmsReception
+20:28:07 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+20:28:07 - 26/07/2015 20:28:07: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 528111570211 | smsServiceActivationNumber: 425276
+20:28:07 - BD|H=528111570211|El equipo ya existe en BD|notifySmsReception
+20:28:07 - BD|H=528111570211|Contrato por evento|Procesando cobro|notifySmsReception
+20:55:40 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+20:55:40 - 26/07/2015 20:55:40: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525545999776 | smsServiceActivationNumber: 425276
+20:55:40 - BD|H=525545999776|El equipo ya existe en BD|notifySmsReception
+20:55:40 - BD|H=525545999776|Contrato por evento|Procesando cobro|notifySmsReception
+20:55:40 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+20:55:40 - 26/07/2015 20:55:40: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525545999776 | smsServiceActivationNumber: 425276
+20:55:40 - BD|H=525545999776|El equipo ya existe en BD|notifySmsReception
+20:55:40 - BD|H=525545999776|Contrato por evento|Procesando cobro|notifySmsReception
+21:20:26 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:20:26 - 26/07/2015 21:20:26: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525545969698 | smsServiceActivationNumber: 425276
+21:20:26 - BD|H=525545969698|El equipo ya existe en BD|notifySmsReception
+21:20:26 - BD|H=525545969698|Contrato por evento|Procesando cobro|notifySmsReception
+21:20:29 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:20:29 - 26/07/2015 21:20:29: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525545969698 | smsServiceActivationNumber: 425276
+21:20:29 - BD|H=525545969698|El equipo ya existe en BD|notifySmsReception
+21:20:29 - BD|H=525545969698|Contrato por evento|Procesando cobro|notifySmsReception
+21:21:51 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:21:51 - 26/07/2015 21:21:51: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316123866 | smsServiceActivationNumber: 425276
+21:21:51 - BD|H=523316123866|El equipo ya existe en BD|notifySmsReception
+21:21:51 - BD|H=523316123866|Contrato por evento|Procesando cobro|notifySmsReception
+21:21:51 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:21:51 - 26/07/2015 21:21:51: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523316123866 | smsServiceActivationNumber: 425276
+21:21:51 - BD|H=523316123866|El equipo ya existe en BD|notifySmsReception
+21:21:51 - BD|H=523316123866|Contrato por evento|Procesando cobro|notifySmsReception
+21:41:55 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:41:55 - 26/07/2015 21:41:55: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523141205521 | smsServiceActivationNumber: 425276
+21:41:55 - BD|H=523141205521|El equipo ya existe en BD|notifySmsReception
+21:41:55 - BD|H=523141205521|Contrato por evento|Procesando cobro|notifySmsReception
+21:41:55 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:41:55 - 26/07/2015 21:41:55: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523141205521 | smsServiceActivationNumber: 425276
+21:41:55 - BD|H=523141205521|El equipo ya existe en BD|notifySmsReception
+21:41:55 - BD|H=523141205521|Contrato por evento|Procesando cobro|notifySmsReception
+21:52:52 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:52:52 - 26/07/2015 21:52:52: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525510406656 | smsServiceActivationNumber: 425276
+21:52:52 - BD|H=525510406656|El equipo ya existe en BD|notifySmsReception
+21:52:52 - BD|H=525510406656|Contrato por evento|Procesando cobro|notifySmsReception
+21:52:52 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+21:52:52 - 26/07/2015 21:52:52: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 525510406656 | smsServiceActivationNumber: 425276
+21:52:52 - BD|H=525510406656|El equipo ya existe en BD|notifySmsReception
+21:52:52 - BD|H=525510406656|Contrato por evento|Procesando cobro|notifySmsReception
+22:07:11 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+22:07:11 - 26/07/2015 22:07:11: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 522226148959 | smsServiceActivationNumber: 425276
+22:07:11 - BD|H=522226148959|El equipo no existe en BD|notifySmsReception
+22:07:11 - BD|H=522226148959|Guardando equipo en BD en BD|notifySmsReception
+22:07:11 - BD|OK|PTN=522226148959|Guardando equipo en base de datos|saveHandsetSC
+22:07:11 - BD|OK|H=4146|PTN=522226148959|Equipo guardado correctamente|saveHandsetSC
+22:07:11 - BD|OK|H=4146|PTN=522226148959|Guardando en dat_estatuspayment|saveHandsetSC
+22:07:11 - BD|OK|H=4146|PTN=522226148959|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+22:07:11 - BD|H=522226148959|ID=4146|Equipo guardado correctamente en BD|notifySmsReception
+22:07:11 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+22:07:11 - 26/07/2015 22:07:11: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 522226148959 | smsServiceActivationNumber: 425276
+22:07:11 - BD|H=522226148959|El equipo ya existe en BD|notifySmsReception
+22:07:11 - BD|H=522226148959|Contrato por evento|Procesando cobro|notifySmsReception
+22:18:00 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+22:18:00 - 26/07/2015 22:18:00: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524611238585 | smsServiceActivationNumber: 425276
+22:18:00 - BD|H=524611238585|El equipo ya existe en BD|notifySmsReception
+22:18:00 - BD|H=524611238585|Contrato por evento|Procesando cobro|notifySmsReception
+22:18:00 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+22:18:00 - 26/07/2015 22:18:00: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 524611238585 | smsServiceActivationNumber: 425276
+22:18:00 - BD|H=524611238585|El equipo ya existe en BD|notifySmsReception
+22:18:00 - BD|H=524611238585|Contrato por evento|Procesando cobro|notifySmsReception
+22:56:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+22:56:16 - 26/07/2015 22:56:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523315834067 | smsServiceActivationNumber: 425276
+22:56:16 - BD|H=523315834067|El equipo no existe en BD|notifySmsReception
+22:56:16 - BD|H=523315834067|Guardando equipo en BD en BD|notifySmsReception
+22:56:16 - BD|OK|PTN=523315834067|Guardando equipo en base de datos|saveHandsetSC
+22:56:16 - BD|OK|H=4147|PTN=523315834067|Equipo guardado correctamente|saveHandsetSC
+22:56:16 - BD|OK|H=4147|PTN=523315834067|Guardando en dat_estatuspayment|saveHandsetSC
+22:56:16 - BD|OK|H=4147|PTN=523315834067|Guardado en dat_estatuspayment correctamente|saveHandsetSC
+22:56:16 - BD|H=523315834067|ID=4147|Equipo guardado correctamente en BD|notifySmsReception
+22:56:16 - OP|H=|Client=201.175.130.92-------------------------------------------------------|notifySCReception
+22:56:16 - 26/07/2015 22:56:16: |Correlator: 425276_ | message: mensaje de iAlarm | senderAddress: 523315834067 | smsServiceActivationNumber: 425276
+22:56:16 - BD|H=523315834067|El equipo ya existe en BD|notifySmsReception
+22:56:16 - BD|H=523315834067|Contrato por evento|Procesando cobro|notifySmsReception
