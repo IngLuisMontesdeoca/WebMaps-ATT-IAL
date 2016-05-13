@@ -1,0 +1,2095 @@
+﻿/* CSS Document */
+
+/***************************************************************************************
+* @autor:       (IG) Israel Galindo Chavarría <israel.galindo@webmaps.com.mx>          *        
+* @updated                                                                             *
+* @version:     1.0                                                                    *
+* @created:     06/02/2014                                                             *
+* @copyright:   Copyright(c) 2014,Webmaps                                              *
+* @description: Hoja de estilo correspondiente al Home para Aprovisionamiento Nextel  *                                           
+***************************************************************************************/
+
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+.cssOculta{
+	display:none;
+}
+
+/*START Header*/
+.cssHHead {
+    height: 60px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+	width:95%;
+}
+	.cssHHLogo{
+		width:300px;
+		float: left;
+		height: 100%;
+		position: absolute;
+		background:url(images/logo01.png) no-repeat 0 50%;
+	}
+	
+	.cssHHNav{
+		margin:0 0 0 300px;
+		height: 100%;
+		position: relative;
+	}
+	
+		.cssLineNav{
+			width:100%;
+			height:35px;
+			background:#ECEDE6;
+			border-radius:4px;
+			margin:13px auto 0 auto;
+		}
+		
+			.cssLNLink{
+				float:left;
+				margin:6px 10px 6px 15px;
+			}
+		
+				.cssLNLink a{
+					font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					color: #756962;
+					cursor: pointer;
+				}				
+				.cssLNLink a:hover{
+					font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					color: #E05414;
+					cursor: pointer;
+				}
+				
+			.cssLNDiv{
+				float:left;
+				width:2px;
+				background:#fff;
+				height:100%;
+				margin:0 5px 0 5px;
+			}
+			
+			.cssLNCerrar{
+				width:30px;
+				height:26px;
+				background:url(images/spriteHome.png) -220px -26px;
+				float:right;
+				cursor:pointer;
+				position:relative;
+				top:5px;
+				right:10px;
+			}
+			.cssLNCerrar:hover{
+				width:30px;
+				height:26px;
+				background:url(images/spriteHome.png) -250px -26px;
+				float:right;
+				cursor:pointer;
+				position:relative;
+				top:5px;
+				right:10px;
+			}
+			
+			 
+			
+/*END Header*/	
+	
+/*START Body*/	
+.cssHBody {
+    bottom:40px;
+    left: 0;
+    overflow: hidden !important;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+	.cssHBContenido{
+		width:95%;
+		height:95%;
+		border:1px solid #ABABAB;
+		margin:10px auto 10px auto;
+	}
+		.cssSeccion{
+			width:100%;
+			height:100%;
+			position:relative;
+		}
+			.cssSHeader{
+				height: 39px;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width:100%;
+				background:#F3F3F3;
+				margin:0;
+				border-bottom:1px solid #ccc;
+			}
+			
+			
+				.cssCESInt {
+					background: none repeat scroll 0 0 #FFFFFF;
+					border: 1px solid #CCCCCC;
+					height: 29px;
+					margin: 0 auto;
+					position: relative;
+					top: 4px;
+					width: 99%;
+				}
+				
+					.cssCESLeft {
+						height: 30px;
+						margin: 0 110px 0 0;
+						overflow: hidden;
+						position: relative;
+					}
+					
+						
+						.txtTranspSearch02 {
+							background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+							color: #756962;
+							font: bold 11px/1 Arial,Helvetica,sans-serif;
+							padding: 3px 4px;
+							width: 98%;
+							border:1px solid #ccc;
+							border-radius:2px;
+							position:relative;
+							top:3px;
+						}
+				
+					
+					.cssCESRight {
+						float: right;
+						height: 30px;
+						overflow: hidden;
+						position: relative;
+						top: -30px;
+						width: 110px;
+					}		
+										
+						.cssCESR_01 {
+							background:url(images/spriteHome.png) 0 -52px;
+							float: left;
+							height: 26px;
+							margin: 0 2px;
+							position: relative;
+							top: 2px;
+							width: 30px;
+							cursor:pointer;
+						}
+						.cssCESR_01:hover {
+							background:url(images/spriteHome.png) -30px -52px;
+							float: left;
+							height: 26px;
+							margin: 0 2px;
+							position: relative;
+							top: 2px;
+							width: 30px;
+							cursor:pointer;
+						}
+						
+						.cssCESR_02 {
+							background:url(images/spriteHome.png) -120px -52px;
+							float: left;
+							height: 26px;
+							margin: 0 2px;
+							position: relative;
+							top: 2px;
+							width: 30px;
+							cursor:pointer;
+						}
+						.cssCESR_02:hover {
+							background:url(images/spriteHome.png) -150px -52px;
+							float: left;
+							height: 26px;
+							margin: 0 2px;
+							position: relative;
+							top: 2px;
+							width: 30px;
+							cursor:pointer;
+						}
+						
+						.cssCESR_03 {
+							background:url(images/spriteHome.png) -180px -52px;
+							float: left;
+							height: 26px;
+							margin: 0 2px;
+							position: relative;
+							top: 2px;
+							width: 30px;
+							cursor:pointer;
+						}
+						.cssCESR_03:hover {
+							background:url(images/spriteHome.png) -210px -52px;
+							float: left;
+							height: 26px;
+							margin: 0 2px;
+							position: relative;
+							top: 2px;
+							width: 30px;
+							cursor:pointer;
+						}
+			
+			
+			
+			.cssSBody {
+				bottom:0;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 40px;
+				width:100%;
+			}
+			
+				.cssSBInt{
+					width:100%;
+					height:100%;
+					margin:auto;
+					position:relative;			
+				}
+				
+					.cssSBIHeader{
+						top:0;
+						bottom:0;
+						height:0;
+						left:0;
+						right:0;
+						position:absolute;
+						/*border-bottom:1px solid #ccc;*/
+					}
+						.cssSBIHeader div{
+							float:left;
+							font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+							color:#756962;
+							position:relative;
+							top:18px;
+							margin:0 17px 0 10px;
+						}
+							.cssSBIHeader div span{
+								float:left;
+							}
+							
+							.cssRadio01{
+								position:relative;
+								top:-5px;
+							}
+							
+							.cssSelEq001{
+								width:150px;
+								padding:2px;
+								font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+								position:relative;
+								top:-5px;
+								color:#756962;
+								border:1px solid #ccc;
+								boder-radius:2px;
+							}
+					
+					.cssSBIBody{
+						top:0;
+						bottom:0;
+						background:#fff;
+						left:0;
+						right:0;
+						position:absolute;
+					}
+					
+						.cssSBIBHeader{
+							top:0;
+							bottom:0;
+							height:28px;
+							left:0;
+							right:0;
+							position:absolute;
+							border-bottom:1px solid #ccc;
+							background:#F3F3F3;							
+						}
+						
+							.cssSBIBHeader > div{
+								float:left;
+								margin-left:10px;
+							}
+							
+								.cssSBIBHeader div a{
+									font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+									color:#5AACD6;
+									position:relative;
+									top:3px;
+									cursor:pointer;
+								}
+								.cssSBIBHeader div a:hover{
+									font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+									color:#5AACD6;
+									position:relative;
+									top:3px;
+									text-decoration:underline;
+									cursor:pointer;
+								}
+								
+								.cssSBIBHeader div span{									
+									position:relative;
+									top:3px;
+									color:#756962;	
+								}
+						
+						
+						
+						.cssSBIBBody{
+							top:29px;
+							bottom:29px;
+							left:0;
+							right:0;
+							position:absolute;
+							overflow:auto;
+						}
+						
+						
+							.cssEqTable{
+								width:100%;
+								border:0;
+								background:#fff !important;
+								margin:0 !important;
+								font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+								color:#756962;								
+							}
+								.cssEqTable thead{
+									font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+									text-align:center;
+									background:url(images/bgHeader01.png) #ccc;								
+								}
+									.cssEqTable thead tr{
+										height:29px;									
+									}
+								.cssEqTable tbody{
+									font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+									text-align:center;
+									background:#F3F3F3 !important;									
+								}
+								
+								table.tablesorter tbody td{
+									/*background:#F3F3F3 !important;OC*/
+								}
+								
+								
+							
+		
+									.cssEqTable tbody tr{
+										height:30px;									
+									}
+									
+									.cssEqTable tbody tr td div{
+										width:90%;
+										margin:auto;						
+									}
+										.cssTxtAddUser{
+											padding:2px;
+											width:98%;
+											border:1px solid #ccc;
+											border-radius:2px;
+											font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+											color:#756962;											
+										}
+										
+										.cssBtnSaveAU{
+											background: url("images/spriteHome.png") -210px -77px;
+											cursor: pointer;
+											height: 26px;
+											position: relative;
+											top: -1px;
+											width: 30px !important;	
+										}
+										.cssBtnSaveAU:hover{
+											background: url("images/spriteHome.png") -240px -77px;
+											cursor: pointer;
+											height: 26px;
+											position: relative;
+											top: -1px;
+											width: 30px !important;	
+										}
+									
+									
+								
+								.cssET01{
+									width:5%;
+								}
+								.cssET02{
+									width:5%;
+								}
+								.cssET03{
+									width:20%;
+								}
+								.cssET04{
+									width:20%;
+								}
+								.cssET05{
+									width:25%;
+								}
+								.cssET06{
+									width:15%;
+								}
+								.cssET07{
+									width:10%;
+								}
+						
+						.cssSBIBFooter{
+							position:absolute;
+							height:28px;
+							right:0;
+							left:0;
+							bottom:0;
+							border-top:1px solid #ccc;
+							background:url(images/bgHeader01.png) #ccc;
+							boder-left:1px solid #ccc;
+							boder-right:1px solid #ccc;
+							padding:0 !important;
+						}
+							.cssSBIBFooter > div{
+								max-width:260px;
+								margin:auto;
+								font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+								color:#756962;
+								position:relative;
+								top:5px;
+							}
+							
+								.pagesize{
+									font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+									border:1px solid #bcbcbc;
+									padding:1px 2px !important;
+									border-radius:4px;
+									color:#756962;
+									margin-right:4px !important;
+								}
+								
+								.gotoPage{
+									font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+									border:1px solid #bcbcbc;
+									padding:1px 2px !important;
+									border-radius:4px;
+									color:#756962;
+								}
+								
+	
+	/*START add Equipos*/	
+	.cssSLHeader{
+		position:absolute;
+		top:0;
+		height:104px;
+		right:0;
+		left:0;
+		width:100%;
+		margin:auto;
+		border-bottom:1px solid #ccc;
+	}
+	
+	.cssSLBody{
+		position:absolute;
+		top:105px;
+		bottom:30px;
+		right:0;
+		left:0;
+		width:100%;
+		margin:auto;
+		overflow:auto;
+	}
+		.cssLineAlt{
+			width:100%;
+			height:27px;
+			float:left;
+			background:#f3f3f3;
+			border-top:1px solid #ccc;
+		}
+			.cssLineAlt a{
+				font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: #5AACD6;
+				cursor: pointer;
+				position: relative;
+				top: -4px;
+				left:12px;
+			}
+			.cssLineAlt a:hover{
+				font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: #5AACD6;
+				cursor: pointer;
+				position: relative;
+				top: -4px;
+				left:12px;
+				text-decoration:underline;
+			}
+			
+			.cssBtnEl{
+				top: 2px !important;
+			}
+			
+		
+		.cssSLH00{
+			float:left;
+			height:73%;
+			width:12%;
+			padding:0 0 0 1%;
+		}
+		
+		.cssSLH01{
+			float:left;
+			height:73%;
+			width:14%;
+			padding:0 0 0 1%;
+		}
+		
+		.cssSLH02{
+			float:left;
+			height:73%;
+			width:10%;
+		}
+		
+			
+			
+			.cssSLH00 span{
+				font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;
+				height:23px;
+				position:relative;
+				top:0;
+			}
+			
+			.cssSLH01 span{
+				font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;
+				height:23px;
+				position:relative;
+				top:0;
+			}
+			
+			.cssSLH02 span{
+				font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;
+				height:23px;
+				position:relative;
+				top:0;
+			}
+		
+			.cssSLHLine{
+				width:100%;
+				margin:0 0 2px 0;
+			}
+			
+				.cssSLHLLeft{
+					height: 26px;
+					margin: 0 34px 0 0;
+					overflow: auto;
+					position: relative;
+					overflow:hidden;					
+				}
+					
+					
+					.cssSel100{
+						width:99%;
+						padding:2px;
+						font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+						color:#756962;
+						border:1px solid #ccc;
+						border-radius:2px;
+					}
+				
+				
+				
+				.cssSLHLRight{
+					float: right;
+					height: 26px;
+					position: relative;
+					width: 34px;
+				}
+					.cssLEAdd{
+						width:30px;
+						height:26px;
+						background:url(images/spriteHome.png) -120px -52px;
+						cursor:pointer;
+						margin:0 0 0 2px;
+						float:left;
+						position:relative;
+						top:-1px;
+					}
+					.cssLEAdd:hover{
+						width:30px;
+						height:26px;
+						background:url(images/spriteHome.png) -150px -52px;
+						cursor:pointer;
+						margin:0 0 0 2px;
+						position:relative;
+						top:-1px;
+					}
+					
+					
+					.cssLERemove{
+						width:30px;
+						height:26px;
+						background:url(images/spriteHome.png) -240px -130px;
+						cursor:pointer;
+						margin:0 0 0 2px;
+						float:left;
+						position:relative;
+						top:-1px;
+					}
+					.cssLERemove:hover{
+						width:30px;
+						height:26px;
+						background:url(images/spriteHome.png) -270px -130px;
+						cursor:pointer;
+						margin:0 0 0 2px;
+						position:relative;
+						top:-1px;
+					}
+					
+					
+					.cssLESave{
+						width:30px;
+						height:26px;
+						background:url(images/spriteHome.png) -210px -77px;
+						cursor:pointer;
+						margin:0 0 0 2px;
+						float:left;
+						position:relative;
+						top:-1px;
+					}
+					.cssLESave:hover{
+						width:30px;
+						height:26px;
+						background:url(images/spriteHome.png) -240px -77px;
+						cursor:pointer;
+						margin:0 0 0 2px;
+						position:relative;
+						top:-1px;
+					}
+					
+					.cssLoadSmall{
+						width:30px;
+						height:26px;
+						margin:0 0 0 2px;
+						position:relative;
+						top:-1px;
+						background:url(images/loadSmall.gif) no-repeat center;
+					}
+					
+					
+					
+					.cssInp100{
+						width:94%;
+						border:1px solid #ccc;
+						padding:2px;
+						border-radius:2px;
+						font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+						color:#756962;					
+					}
+					
+					.cssInp101{
+						width:94%;
+						border:1px solid #ccc;
+						padding:4px 2px;
+						border-radius:2px;
+						font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+						color:#756962;					
+					}
+				
+				.cssLogsBtn01{
+					width:90px !important;
+					height:25px;
+					margin:auto;
+					background:url(../Login/images/spritesLogin.png) 0 0;
+					cursor:pointer;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#E05414;
+					position:relative;
+					top:24px;		
+				}
+				.cssLogsBtn01:hover{
+					width:90px !important;
+					height:25px;
+					margin:auto;
+					background:url(../Login/images/spritesLogin.png) -90px 0;
+					cursor:pointer;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#fff;
+					position:relative;
+					top:24px;				
+				}
+				
+				.cssLogsBtnLeft{
+					width:90px !important;
+					height:25px;
+					background:url(../Login/images/spritesLogin.png) 0 0;
+					cursor:pointer;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#E05414;
+					position:relative;
+					top:-3px !important;
+					margin:0 auto 0 auto !important;
+					display:inline-block;		
+				}
+				.cssLogsBtnLeft:hover{
+					width:90px !important;
+					height:25px;
+					background:url(../Login/images/spritesLogin.png) -90px 0;
+					cursor:pointer;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#fff;
+					position:relative;
+					top:-3px !important;
+					margin:0 auto 0 auto !important;
+					display:inline-block;						
+				}
+				.cssLogsBtnBigDisabled{
+					width:90px !important;
+					height:25px;
+					background:url(../Login/images/spritesLogin.png) 0 0;
+					cursor:auto;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#E05414;
+					position:relative;
+					top:-3px !important;
+					margin:0 auto 0 auto !important;
+					display:inline-block;
+					opacity:0.5;		
+				}
+				
+				.cssLogsBtn02{
+					width:90px;
+					height:25px;
+					margin:auto;
+					background:url(../Login/images/spritesLogin.png) 0 0;
+					cursor:pointer;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#E05414;
+					position:relative;
+					top:8px;		
+				}
+				.cssLogsBtn02:hover{
+					width:90px;
+					height:25px;
+					margin:auto;
+					background:url(../Login/images/spritesLogin.png) -90px 0;
+					cursor:pointer;
+					font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-align:center;
+					color:#fff;
+					position:relative;
+					top:8px;				
+				}
+				
+					.cssLT01{
+						width:6%;
+					}
+					.cssLT02{
+						width:6%;
+					}	
+					.cssLT03{
+						width:22%;
+					}	
+					.cssLT04{
+						width:22%;
+					}	
+					.cssLT05{
+						width:22%;
+					}
+					.cssLT06{
+						width:22%;
+					}	
+	
+	.cssSLFooter{
+		position:absolute;
+		bottom:0;
+		right:0;
+		left:0;
+		height:30px;
+		width:100%;
+		margin:auto;
+		background:#ccc;
+	}
+	
+		.cssSLFPag{
+			width:100%;
+			height:29px;			
+			border-top:1px solid #ccc;			
+			background:#ccc;
+		}
+		
+		.cssSLFVal{
+			width:100%;
+			height:40px;
+			background:#F3F3F3;
+		}
+		
+			.cssSLFV01{
+				width:88%;
+				float:left;
+			}
+			
+				.cssSLFV01 p{
+					font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					color:#756962;
+					width:90%;
+					margin-left:10px;
+					position:relative;
+					top:4px;
+				}
+			
+				
+			
+			.cssSLFV02{
+				width:12%;
+				float:right;
+			}		
+	
+	/*END add Equipos*/	
+/*END Body*/	
+
+
+/*START Usuarios*/
+.cssUT00{
+	width:6%;
+}
+.cssUT000{
+	width:6%;
+}
+.cssUT01{
+	width:18%;
+}
+.cssUT02{
+	width:18%;
+}
+.cssUT03{
+	width:30%;
+}
+.cssUT04{
+	width:21%;
+}
+
+
+/*END Usuarios*/
+
+
+
+
+
+
+.cssHFooter {
+	height: 40px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+	width:95%;
+}
+
+	.cssHFCenter{
+		width:80%;
+		height:40px;
+		margin:auto;
+	}
+		.cssHFCenter p{
+			width:100%;
+			font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-align:center;
+			color:#756962;
+			padding:2px 0 2px 0;
+			margin:0;	
+		}
+
+/**/
+.cssValidation_Green{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#090;
+	text-align:right;
+	padding:4px 0 4px 0;
+	border-radius:2px;
+	width:70%;
+	position:relative;
+	top:5px;
+	float:right;
+	margin-right:10px;
+}
+
+.cssValidation_Yellow{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#F90;
+	text-align:right;
+	padding:4px 0 4px 0;
+	border-radius:2px;
+	width:70%;
+	position:relative;
+	top:5px;
+	float:right;
+	margin-right:10px;
+}
+
+.cssValidation_Red{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#C00;
+	text-align:right;
+	padding:4px 0 4px 0;
+	border-radius:2px;
+	width:70%;
+	position:relative;
+	top:5px;
+	float:right;
+	margin-right:10px;
+}
+
+/*START Logs*/
+.cssSLogsHeader{
+	height:60px;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+}
+
+	.cssSLogsHTop{
+		width:100%;
+		height:29px;
+		border-bottom:1px solid #ccc;
+	}
+	
+		.cssSLogsH01{
+			width:20%;
+			height:30px;
+			float:left;
+			font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			padding:0 !important;
+			text-align:center;
+			color:#756962;
+			background:url(images/imgVLine01.png) center right repeat-y;
+		}
+		
+		.cssNoImage{
+			background-image:none !important;
+		}
+		
+			.cssSLogsH01 span{
+				position:relative;
+				top:10px;
+			}
+			.cssSLogsH01 div{
+				width:90%;
+				margin:auto;
+				position:relative;
+				top:5px;
+			}
+		
+		.cssSLogsH02{
+			width:20%;
+			height:30px;
+			float:left;
+			font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			padding:0 !important;
+			text-align:center;
+			color:#756962;
+		}
+			.cssSLogsH02 span{
+				position:relative;
+				top:10px;
+			}
+			.cssSLogsH02 div{
+				width:100%;
+				margin:auto;
+				position:relative;
+				top:5px;
+			}
+			
+			.cssLogs01{
+				width:20%;
+			}
+			.cssLogs02{
+				width:20%;
+			}
+			.cssLogs03{
+				width:15%;
+			}
+			.cssLogs04{
+				width:15%;
+			}
+			.cssLogs05{
+				width:30%;
+			}
+               .cssSReportesH02{
+			width:25%;
+			height:30px;
+			float:left;
+			font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			padding:0 !important;
+			text-align:center;
+			color:#756962;
+		}
+			.cssSReportesH02 span{
+				position:relative;
+				top:10px;
+			}
+			.cssSReportesH02 div{
+				width:100%;
+				margin:auto;
+				position:relative;
+				top:5px;
+			}
+	.cssSLogsHBottom{
+		width:100%;
+		height:29px;
+		border-bottom:1px solid #ccc;
+		background:#F3F3F3;
+	}
+		.cssSLogsHBottom .cssSLogsH01 > div{
+			position:relative;
+			top:4px;
+		}
+
+.cssSLogsBody{
+	position:absolute;
+	left:0;
+	right:0;
+	top:60px;
+	bottom:0;
+	/*background:#f9f9f9;*/
+	overflow:auto;	
+}
+/*END Logs*/
+
+.cssLoading01{
+	background:url(images/loadingCargando.gif) no-repeat center;
+	width:100%;
+	height:100%;
+}
+
+.cssResulTxt{
+	width:90%;
+	position:relative;
+	top:50px;
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;
+	text-align:center;
+	margin:auto;
+}
+
+.cssLineActive{
+	background:#CCC !important;
+}
+
+.odd{
+	background:#E4E4E4;
+}
+
+.even{
+	background:#eee;
+}
+
+.tablesorter-filter{
+	padding:2px !important;
+	width:86% !important;
+	border-radius:2px !important;
+	border:1px solid #ccc !important;
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color:#756962 !important;
+}
+
+.cssInptTransp{
+	background:transparent;
+	text-align:center;
+	border:none;
+	width:90%;
+	font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;
+}
+
+.cssInptEdit01{
+	text-align:left;
+	border:1px solid #ccc;
+	width:90%;
+	padding:2px;
+	font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;
+}
+
+.cssBtnUEdit{
+	width:30px !important;
+	height:25px;
+	background:url(images/spriteHome.png) -60px -78px;
+	cursor:pointer;
+	display:inline-block;
+}
+.cssBtnUEdit:hover{
+	width:30px !important;
+	height:25px;
+	background:url(images/spriteHome.png) -90px -78px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.cssBtnUSave{
+	width:30px !important;
+	height:25px;
+	background:url(images/spriteHome.png) -210px -78px;
+	cursor:pointer;
+	display:inline-block;
+}
+.cssBtnUSave:hover{
+	width:30px !important;
+	height:25px;
+	background:url(images/spriteHome.png) -240px -78px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.tablesorter-default td{
+	vertical-align:middle !important;
+}
+
+.ui-widget {
+	font-size:0.7em !important;
+}
+
+#dvBtnLConsultar{
+	right:2px;
+}
+
+#dvBtnLLimpiar{
+	left:2px;
+}
+
+.cssSLBHeader{
+	position:absolute;
+	height:27px;
+	top:0;
+	left:0;
+	right:0;
+	border-bottom:1px solid #ccc;
+	background:#F3F3F3;
+}
+
+.cssSLBBody{
+	position:absolute;
+	top:28px;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.active a{
+	color:#E05414 !important;
+}
+
+.cssTxtFooter img {
+    margin: 0 5px;
+}
+
+/**/
+.cssAddGHeader{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	height:24px;
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#756962;
+	border-bottom:1px solid #ABABAB;
+	background:#ECEDE6;
+}
+
+	.cssAddGHeader span{
+		position:relative;
+		top:6px;
+	}
+
+
+	.cssAddGHClose{
+		width:20px;
+		height:20px;
+		float:right;
+		background:#ccc;
+		margin:2px 5px 0 0;
+		background:url(images/spriteHome.png) 0 -155px;
+		cursor:pointer;
+	}
+	.cssAddGHClose:hover{
+		width:20px;
+		height:20px;
+		float:right;
+		background:#ccc;
+		margin:2px 5px 0 0;
+		background:url(images/spriteHome.png) -20px -155px;
+		cursor:pointer;
+	}
+
+.cssAddGBody{
+	position:absolute;
+	top:25px;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+.cssSN {
+	width:90%;
+	position:relative;
+	top:50px;
+	font:italic 14px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;
+	text-align:center;
+	margin:auto;
+	color:#900 !important;
+}
+
+.tablesorter-header{
+	background-color:#ccc;
+}
+
+.cssCheckLogs01{
+	float:right;
+	position:relative;
+	top:6px;
+	right:4px;
+}
+
+.cssSelLog001{
+	width:66% !important;
+	float:left;
+}
+
+/*START Ayuda*/
+
+.cssIconAyuda{
+	width:20px;
+	height:20px;
+	float:right !important;
+	position:relative;
+	background:url(images/spriteHome.png) -40px -155px;
+	margin-right:5px;
+	top:4px;
+	cursor:pointer;
+}
+.cssIconAyuda:hover{
+	width:20px;
+	height:20px;
+	float:right !important;
+	position:relative;
+	background:url(images/spriteHome.png) -60px -155px;
+	margin-right:5px;
+	top:4px;
+	cursor:pointer;
+}
+
+.cssContAyuda{
+	width:400px;
+	height:200px;
+	position:absolute;
+	right:0;
+	top:28px;
+	z-index:999;
+}
+	.cssCAHeader{
+		width:100%;
+		height:7px;
+		margin:0 !important;
+		background:url(images/imgArrow01.png) no-repeat 98.5% 50%;
+		position:relative;
+		top:1px;
+	}
+	
+	.cssCABody{
+		width:388px;
+		padding:5px;
+		border:1px solid #ccc;
+		background:#fff;
+		margin:0 !important;
+		/*border-radius:5px;*/
+		font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color:#756962;
+		box-shadow: 0 0 9px #777;
+	}
+		.cssCABody h3{
+			width:97%;
+			margin:2px 0 2px 0;
+			padding:6px;
+			font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background:#f1f1f1;
+			border-radius:5px;
+		}
+			.cssHClose{
+				width:15px;
+				height:15px;
+				float:right;
+				position:relative;
+				right:0;
+				top:-2px;
+				cursor:pointer;
+				background:url(images/spriteHome.png) -80px -156px;
+			}
+			.cssHClose:hover{
+				width:15px;
+				height:15px;
+				float:right;
+				position:relative;
+				right:0;
+				top:-2px;
+				cursor:pointer;
+				background:url(images/spriteHome.png) -100px -156px;
+			}
+		
+		.cssCABody ul{
+			padding:0 10px 0 20px;
+		}
+			.cssCABody ul li{
+				padding:2px 0 2px 0;
+			}		
+	
+
+/*END Ayuda*/
+
+.dvUsEliminar01{
+}
+
+.cssHelp01{
+	top:105px !important;
+}
+
+.cssCLogsHeader{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	border-bottom:1px solid #ccc;	
+	bottom:27px;
+	overflow:auto;
+}
+
+.cssCLogsBody{
+	position:absolute;
+	height:28px;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow:auto;
+	background:url("images/bgHeader01.png") repeat scroll 0 0 #CCCCCC;
+	padding:0 !important;
+}
+
+	.cssCLogsBody > div{
+		color: #756962;
+		font: bold 11px/1 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		margin: auto;
+		max-width: 250px;
+		position: relative;
+		top: 5px;
+	}
+
+/*START reestructura buscador*/
+.cssContS00{
+	float: left;
+    overflow: hidden;
+    position: relative;
+    width: 390px;
+	height:39px;
+}
+	.cssAlt00{
+		width: 539px !important;
+	}
+
+.cssContS01{
+    margin: 0 0 0 390px;
+    overflow: hidden;
+    position: relative;
+	height:39px;
+}
+	.cssAlt01{
+		margin: 0 0 0 539px !important;
+	}
+
+
+.cssContS00 div{
+	float:left;
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;
+	position:relative;
+	top:10px;
+	margin:0 10px 0 10px;
+}
+	.cssContS00 div span{
+		float:left;
+	}
+	
+	.cssRadio01{
+		position:relative;
+		top:-5px;
+	}
+	
+	.cssSelEq001{
+		width:150px;
+		padding:2px;
+		font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		position:relative;
+		top:-5px;
+		color:#756962;
+		border:1px solid #ccc;
+		boder-radius:2px;
+	}
+	
+.cssUCombo span{
+	float:left;	
+	margin:0 10px 0 10px;
+	position:relative;
+	top:8px;
+}
+	.cssCSU001{
+		padding:0 20px 0 20px !important;
+	}
+/*END reestructura buscador*/
+
+.cssLinkLogs01{
+	float:right;
+	width:65px !important;
+}
+	.cssLinkLogs01 a{
+		font:10px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color:#5AACD6;
+		text-align:center;
+		cursor:pointer;
+		text-decoration:none;
+		position:relative;
+		top:-2px;
+	}
+	.cssLinkLogs01 a:hover{
+		font:10px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color:#5AACD6;
+		text-align:center;
+		cursor:pointer;
+		text-decoration:underline;
+		position:relative;
+		top:-2px;
+	}
+
+.cssSBIBHeaderUser{
+	top:0;
+	bottom:0;
+	height:80px;
+	left:0;
+	right:0;
+	position:absolute;
+	border-bottom:1px solid #ccc;				
+}
+	
+	.cssSLUH01 {
+		float: left;
+		height:51px;
+		width: 20%;
+	}
+		.cssSLUH01 div {
+			margin:auto;
+			width:90%;
+		}
+		.cssSLUH01 span {
+			color:#756962;
+			font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+.cssSBIBBodyUser{
+	top:79px;
+	bottom:29px;
+	left:0;
+	right:0;
+	position:absolute;
+	overflow:auto;
+}
+
+.cssTxtAddUser01{
+	padding:2px;
+	width:98%;
+	border:1px solid #ccc;
+	border-radius:2px;
+	font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;											
+}
+
+.cssUsersBtn01{
+	width:90px !important;
+	height:25px;
+	margin:auto;
+	background:url(../Login/images/spritesLogin.png) 0 0;
+	cursor:pointer;
+	font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#E05414;
+	position:relative;
+	top:14px;		
+}
+.cssUsersBtn01:hover{
+	width:90px !important;
+	height:25px;
+	margin:auto;
+	background:url(../Login/images/spritesLogin.png) -90px 0;
+	cursor:pointer;
+	font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	top:14px;				
+}
+
+.cssIconAyudaNew{
+	top:79px !important;
+}
+
+.cssLogSExtra{
+	margin-left:24px !important;
+}
+
+/*START New Styles*/
+
+.cssNEV01{
+	width:4%;
+}
+.cssNEV02{
+	width:4%;
+}
+.cssNEV03{
+	width:9%;
+}
+.cssNEV04{
+	width:10%;
+}
+.cssNEV05{
+	width:12%;
+}
+.cssNEV06{
+	width:10%;
+}
+.cssNEV07{
+	width:10%;
+}
+.cssNEV08{
+	width:10%;
+}
+.cssNEV09{
+	width:10%;
+}
+.cssNEV10{
+	width:11%;
+}
+
+/***********/
+
+.cssNEA01{
+	width:5%;
+}
+.cssNEA02{
+	width:5%;
+}	
+.cssNEA03{
+	width:15%;
+}	
+.cssNEA04{
+	width:15%;
+}	
+.cssNEA05{
+	width:15%;
+}
+.cssNEA06{
+	width:15%;
+}
+.cssNEA07{
+	width:15%;
+}
+.cssNEA09{
+	width:10%;
+}
+.cssNEA09{
+	width:5%;
+}
+
+/***********/
+
+.cssEAddC01{
+	width:5%;
+}
+.cssEAddC02{
+	width:5%;
+}	
+.cssEAddC03{
+	width:28%;
+}	
+.cssEAddC04{
+	width:28%;
+}	
+.cssEAddC05{
+	width:28%;
+}
+.cssEAddC06{
+	width:6%;
+}
+
+.cssEBtnContact{
+	width:30px !important;
+	height:26px;
+	display:inline-block;
+	margin:0 1px 0 1px !important;
+	cursor:pointer;
+	background:url(images/spriteHome.png) -60px -175px;
+}
+	.cssEBtnContact:hover{
+		width:30px !important;
+		height:26px;
+		display:inline-block;
+		margin:0 1px 0 1px !important;
+		cursor:pointer;
+		background:url(images/spriteHome.png) -90px -175px;
+	}
+
+.cssEBtnConfig{
+	width:30px !important;
+	height:26px;
+	display:inline-block;
+	margin:0 1px 0 1px !important;
+	cursor:pointer;
+	background:url(images/spriteHome.png) 0 -175px;
+}
+	.cssEBtnConfig:hover{
+		width:30px !important;
+		height:26px;
+		display:inline-block;
+		margin:0 1px 0 1px !important;
+		cursor:pointer;
+		background:url(images/spriteHome.png) -30px -175px;
+	}
+
+.cssEEditConfig{
+	width:30px !important;
+	height:26px;
+	display:inline-block;
+	margin:0 1px 0 1px !important;
+	cursor:pointer;
+	background:url(images/spriteHome.png) -60px -78px;
+}
+	.cssEEditConfig:hover{
+		width:30px !important;
+		height:26px;
+		display:inline-block;
+		margin:0 1px 0 1px !important;
+		cursor:pointer;
+		background:url(images/spriteHome.png) -90px -78px;
+	}	
+	
+
+.cssBodyConf{
+	width:310px;
+	min-height:150px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	background:#fff;
+	z-index:10000;
+	margin:auto;
+	position:absolute;
+	top:20%;
+	font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 0 0 9px #777777;
+    color: #756962;
+	left:1%;
+	right:1%;
+}
+
+	.cssBCHeader{
+		width:100%;
+		height:20px;
+		border-bottom:1px solid #ccc;
+		background:#ECEDE6;
+	}
+		.cssBCHTitle{
+			font-weight:bold;
+			text-align:left;
+			float:left;
+			width:85%;
+			padding:5px;
+		}
+			.cssBCHTitle span{
+				font-style:italic;
+				font-size:10px;
+				font-weight:normal;
+				margin-left:4px;
+			}
+			
+		.cssBCHClose{
+			width:15px;
+			height:15px;
+			float:right;
+			position:relative;
+			top:2px;
+			right:5px;
+			cursor:pointer;
+			background:url(images/spriteHome.png) -80px -156px;
+		}
+		.cssBCHClose:hover{
+			width:15px;
+			height:15px;
+			float:right;
+			position:relative;
+			top:2px;
+			right:5px;
+			cursor:pointer;
+			background:url(images/spriteHome.png) -100px -156px;
+		}
+
+	.cssConfigBody{
+		width:100%;
+		margin:10px 0 0 0;
+		float:left;	
+	}
+		.cssConfigBody div{
+			margin:5px 0 0 0;
+			font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: #756962;
+			width:95%;
+			margin:auto;
+		}
+			.cssSelBC01{
+				border: 1px solid #CCCCCC;
+				border-radius: 2px;
+				color: #756962;
+				font: 11px/1 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				padding: 2px;
+				width: 100%;
+				margin:2px 0 2px 0;
+			}
+						
+			.cssLayerBtn01 {
+				background: url("../Login/images/spritesLogin.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+				color: #E05414;
+				cursor: pointer;
+				font: bold 12px/2.2 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+				height: 25px;
+				margin: auto !important;
+				position: relative;
+				text-align: center;
+				top: 12px;
+				width: 90px !important;
+			}
+			.cssLayerBtn01:hover {
+				background:url(../Login/images/spritesLogin.png) -90px 0;
+				color: #fff;
+				cursor: pointer;
+				font: bold 12px/2.2 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+				height: 25px;
+				margin: auto !important;
+				position: relative;
+				text-align: center;
+				top: 12px;
+				width: 90px !important;
+			}	
+
+.cssBodyContact{
+	width:95%;
+	height:93%;
+	padding:10px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	background:#fff;
+	z-index:10000;
+	margin:auto;
+	position:absolute;
+	top:2%;
+	font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 0 0 9px #777777;
+    color: #756962;
+	left:1%;
+	right:1%;
+}
+
+.cssLBCHeader{
+	position:absolute;
+	top:0;
+	height:25px;
+	border-bottom:1px solid #ccc;
+	left:0;
+	right:0;
+	background:#ECEDE6;
+}
+
+	.cssBCHCTitle{
+		font-weight:bold;
+		text-align:left;
+		float:left;
+		width:90%;
+		margin:7px 0 0 10px;
+	}
+	
+		.cssBCHCTitle span{
+			font-style:italic;
+			font-size:10px;
+			font-weight:normal;
+			margin-left:4px;
+		}
+		
+	.cssBCHCClose{
+		width:15px;
+		height:15px;
+		float:right;
+		position:relative;
+		right:0;
+		cursor:pointer;
+		background:url(images/spriteHome.png) -80px -156px;
+		margin:5px 10px 0 0;
+	}
+	.cssBCHCClose:hover{
+		width:15px;
+		height:15px;
+		float:right;
+		position:relative;
+		right:0;
+		cursor:pointer;
+		background:url(images/spriteHome.png) -100px -156px;
+		margin:5px 10px 0 0;
+	}
+
+.cssLBCBody{
+	position:absolute;
+	top:24px;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+	.cssLBCIntHeader{
+		position:absolute;
+		top:0;
+		height:54px;
+		border-bottom:1px solid #ccc;
+		left:0;
+		right:0;
+	}
+	
+		.cssLMLeft01{
+			width:26%;
+			float:left;
+			height:45px;
+			padding:9px 1% 0 1%;
+		}
+		.cssLMLeft02{
+			width:14%;
+			float:left;
+			height:45px;
+			padding:10px 1% 0 1%;
+		}
+		
+		.cssMarg001{
+			margin-top:4px;
+		}
+		.cssMarg002{
+			margin-top:4px;
+			padding:1px !important;
+		}
+		
+		.cssBtn01{
+			width:90px !important;
+			height:25px;
+			margin:auto;
+			background:url(../Login/images/spritesLogin.png) 0 0;
+			cursor:pointer;
+			font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-align:center;
+			color:#E05414;
+			position:relative;
+			top:9px;		
+		}
+		.cssBtn01:hover{
+			width:90px !important;
+			height:25px;
+			margin:auto;
+			background:url(../Login/images/spritesLogin.png) -90px 0;
+			cursor:pointer;
+			font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-align:center;
+			color:#fff;
+			position:relative;
+			top:9px;				
+		}
+
+	.cssLBCBIntBody{
+		position:absolute;
+		top:53px;
+		left:0;
+		right:0;
+		bottom:0;
+	}
+		.cssLIntHeader{
+			position:absolute;
+			height:23px;
+			border-top:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+			background:#F3F3F3;
+			right:0;
+			left:0;
+		}
+			.cssLIntHeader a{
+				color: #5AACD6;
+				cursor: pointer;
+				font: bold 11px/1 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				position: relative;
+				top: 6px;
+				margin-left:10px;
+			}
+			.cssLIntHeader a:hover{
+				color: #5AACD6;
+				cursor: pointer;
+				font: bold 11px/1 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				position: relative;
+				top: 6px;
+				text-decoration:underline;
+				margin-left:10px;
+			}
+			
+		.cssLIntBody{
+			position:absolute;
+			top:25px;
+			bottom:25px;
+			left:0;
+			right:0;
+			overflow:auto;
+		}		
+		.cssLIntFooter{
+			height:24px;
+			border-top:1px solid #ccc;
+			position:absolute;
+			bottom:0;
+			left:0;
+			right:0;
+			background: url("images/bgHeader01.png") repeat scroll 0 0 #CCCCCC;
+			padding:0 !important;
+		}
+			.cssLIntFooter div{
+				color: #756962;
+				font: bold 11px/1 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				margin: auto;
+				max-width: 250px;
+				position: relative;
+				top: 2px;
+			}
+
+.cssBgLayer{
+	background-color: #000000;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+	width:100%;
+	height:100%;
+}
+
+.cssIA001{
+	top:2px !important;
+}		
+/*END New Styles*/
+
+
+.cssBtnsRep div{
+	margin:0 5px 0 5px !important;
+}
+.cssBtnsRep div:hover{
+	margin:0 5px 0 5px !important;
+}
+
+.cssLogsBtnSmall{
+	width:auto !important;
+	height:25px;
+	background:url(../Login/images/spritesLogin.png) 0 0;
+	cursor:pointer;
+	font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#E05414;
+	position:relative;
+	top:-3px !important;
+	display:inline-block;
+	padding:0 5px;
+	border-radius:0 2px 2px 0;
+	border-right:1px solid #ccc;		
+}
+.cssLogsBtnSmall:hover{
+	width:auto !important;
+	height:25px;
+	background:url(../Login/images/spritesLogin.png) -90px 0;
+	cursor:pointer;
+	font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#fff;
+	position:relative;
+	top:-3px !important;
+	display:inline-block;
+	padding:0 5px;
+	border-radius:0 2px 2px 0;
+	border-right:1px solid #ccc;						
+}
+
+.cssLogsBtnSmallDisabled{
+	width:auto !important;
+	height:25px;
+	background:url(../Login/images/spritesLogin.png) 0 0 !important;
+	cursor:auto;
+	font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	color:#E05414;
+	position:relative;
+	top:-3px !important;
+	display:inline-block;
+	padding:0 5px;
+	border-radius:0 2px 2px 0;
+	border-right:1px solid #ccc;
+	opacity:0.4;		
+}
+
+/*New Style*/
+
+.cssRLoad01{
+	background:url(../Login/images/spritesLogin.png) 0 0;
+    color: transparent !important;
+    cursor:auto;
+    font: bold 12px/2.2 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 25px;
+    text-align: center;
+	opacity:0.77;
+}
+.cssRLoad01:hover{
+	background:url(../Login/images/spritesLogin.png) 0 0 !important;
+    color: transparent !important;
+    cursor:auto !important;
+    font: bold 12px/2.2 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 25px;
+	opacity:0.77;
+}
+.cssRLoad01 span{
+	background:url(images/imgLoad01.gif) no-repeat center;
+	width:34px;
+	height:25px;
+	position:absolute;
+	left:1px;
+	top:1px;
+	cursor:auto;	
+}
+
+.cssNTxtP01{
+	padding:4px 4px 5px 4px !important;
+}
+
+.tablesorter-default .tablesorter-filter{
+	padding:4px !important;
+}
+
+
+

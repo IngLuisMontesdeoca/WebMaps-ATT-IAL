@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>.:: Login - Aprovisionamiento ::.</title>
+<link type="text/css" href="../../../css/Login/login.css" rel="stylesheet"/>
+<script type="text/javascript" src="../../../js/jQuery/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../../../js/Login/login.js"></script>
+{scripts}
+</head>
+
+<body>
+
+<div class="cssLHead">
+	<div class="cssLHCenter">
+    	<div class="cssLHCLogo"></div>
+        <div class="cssLHCText">
+        	<p>Bienvenido a Aprovisionamiento de Nextel.</p>
+			<p>Ingresa tu usuario y contrase&ntilde;a y comienza a aprovisionar tus equipos Nextel.</p>
+        </div>
+    </div>
+</div>
+
+<div class="cssLBody">
+	<div class="cssLBCenter">
+    
+    	<!-- START Inicio-->
+    	<div id="dvLBtnInfo" class="cssLoginInicio">
+        	<h1>Iniciar Sesi&oacute;n</h1>            
+            <div class="cssLILine01">
+            	<input id="dvLUser" type="text" class="cssTxt01" placeholder="Usuario"/>
+            </div>            
+            <div class="cssLILine01">
+            	<input id="dvLPass" type="password" class="cssTxt01" placeholder="Password"/>
+            </div>
+           
+            <div class="cssFL01">
+            	<div id="dvReqMinimos" title="Requerimientos mínimos" class="cssFLBtn01"></div>
+                <div title="Entrar al sistema" id="dvlEnter" class="cssFLBtn02"><span></span>Entrar</div>	                
+            </div>
+            <div class="cssFL01">
+                <a id="dvRecPass">Recuperaci&oacute;n o desbloqueo de contrase&ntilde;a</a>
+            </div>
+            
+            <div class="cssFL02">
+            	<div id="dvTxtValidaciones" class="{CLASSCERRARSESION}">{CERRARSESION}</div>
+            </div>                     
+        </div>
+        <!-- END Inicio-->
+        
+        <!-- START Requerimientos-->
+        <div id="dvLoginRequ" class="cssLoginRequ cssOculta">
+        	<div class="cssLRHeader">
+            	<div class="cssLRHLeft">Requerimientos m&iacute;nimos</div>
+                <div id="dvLClose" title="Cerrar" class="evtLClose cssLRHRight"></div>                
+                <hr>
+                <div class="cssLCCenter">
+                	<ul>Hardware:
+                    	<li>Resoluci&oacute;n de pantalla mínima 1024 x 768 pixeles</li>
+                        <li>Memoria RAM 2 Gb +</li>
+                        <li>Procesador 1 GHz de 32 bits o 64 bits +</li>                        
+                    </ul>
+                    
+                    <ul>
+                    	Software:
+                    	<li>Sistema Operativo, Windows 7 +</li>
+                        <li>
+                        	<a href="https://www.mozilla.org/es-ES/firefox/new/" target="_blank">
+                        		Navegador Mozilla Firefox 26 +  [Descargar]
+                        	</a>
+                        </li>
+                        
+                        <li>
+                        	<a href="http://www.google.com/intl/es-419/chrome/" target="_blank">
+                        		Navegador Chrome 32 +  [Descargar]
+                        	</a>
+                        </li> 
+                        <li>
+                        	<a href="http://windows.microsoft.com/es-es/internet-explorer/download-ie" 
+                            target="_blank">
+                        		Navegador Internet Explorer 9 +  [Descargar]
+                        	</a>
+                        </li>                      
+                    </ul>
+                </div>            
+            </div>
+        </div>
+        <!-- END Requerimientos-->
+        
+        <!-- START Solicitar password-->
+        <div id="dvLoginPass" class="cssLoginPass cssOculta">
+        	<div class="cssLRHeader">
+            	<div class="cssLRHLeft">Recuperaci&oacute;n de contrase&ntilde;a</div>
+                <div id="dvLClose" title="Cerrar" class="evtLClose cssLRHRight"></div>
+                <hr>                            
+            </div>            
+            
+            <div class="cssLILine01 cssMargLine01">
+            	<input id="dvNameUser" type="text" class="cssTxt01" placeholder="Ingrese nombre del usuario"/>
+            </div>
+            
+            <div class="cssFL01">
+            	<div id="dvPassLimpiar" class="cssFLBtn03">Limpiar</div>            	
+                <div id="dvPassEnviar" class="cssFLBtn02"><span></span>Recuperar</div>	                
+            </div>
+            
+            <div class="cssFL01">
+            	<div id="dvPassValidaciones" class=""></div>
+            </div>
+            
+            <div class="cssFL03_01">
+            	<div>
+                	En caso de que se haya olvidado la contrase&ntilde;a o la cuenta est&eacute; bloqueada, 
+                    ingresar el nombre de usuario y hacer clic en Recuperar. Se recibir&aacute; un mensaje 
+                    en su cuenta de correo registrada para continuar con el proceso. 
+                </div>
+            </div>             
+        </div>
+        <!-- END Solicitar password-->
+        
+        <!-- START reestablecer password-->
+        <div id="dvReestablecerPass" class="cssLoginRequ cssOculta">
+        	<div class="cssLRHeader">
+            	<div class="cssLRHLeft">
+                	La contrase&ntilde;a actual ha sido bloqueada por seguridad, insertar una nueva contrase&ntilde;a. 
+                </div>
+                <div id="dvCPClose" title="Cerrar" class="evtLClose cssLRHRight"></div>            
+            </div>
+            
+            <div class="cssLILine01 cssMargTop01">
+            	<input id="dvNewPass" type="password" class="cssTxt01" placeholder="Ingrese su nueva contraseña"/>
+            </div>
+            <div class="cssLILine01">
+            	<input id="dvNewPassAg" type="password" class="cssTxt01" 
+                placeholder="Ingrese nuevamente su nueva contraseña"/>
+            </div>
+            <div class="cssFL01">
+                <div id="dvChangePass" class="cssFLBtn02 cssCenterMargin">Aceptar</div>	                
+            </div>
+            
+            <div class="cssFL01">
+            	<div id="dvNewPassValidaciones" class="cssValidation_Red">Validaciones</div>
+            </div>
+            
+            <div class="cssFL03">
+            	<div>
+                	<ul>
+                    	<b>La nueva contrase&ntilde;a debe contemplar las siguientes caracter&iacute;sticas:</b>
+                    	<li>M&iacute;nimo 7 caracteres</li>
+                        <li>Contener al menos dos n&uacute;mero</li>
+                        <li>No iniciar con n&uacute;mero</li>
+                        <li>Es sensible a may&uacute;sculas y min&uacute;sculas</li>
+                        <li>S&oacute;lo se adminten caracteres alfanum&eacute;ricos</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    	<!-- END reestablecer password-->
+    </div>
+</div>
+
+<div class="cssLFooter">
+	<div class="cssLFCenter">
+    	<p>
+        	© Derechos Reservados 2014 Comunicaciones de México, S.A. de C.V.
+		</p>
+        <p>
+			Paseo de los Tamarindos No. 90. Col. Bosques de las Lomas Del. Cuajimalpa C.P. 05120 M&eacute;xico, 
+			D.F. M&eacute;xico <img width="12" height="8" src="../../../css/Home/images/mini_conectores.jpg"> y Tu Mundo. Ahora son M.R. 
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

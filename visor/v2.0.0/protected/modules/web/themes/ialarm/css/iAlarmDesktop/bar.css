@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*START Barra de herramientas*/
+
+body {background-color:transparent;}
+
+	.cssCBSLeft{
+		width:15px;
+		height:20px;
+		float:left;
+		margin:0 5px 0 0;
+		background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -40px 0;
+		cursor:pointer;
+		position:relative;
+		top:-8px;
+		*top:-13px;
+	}
+	.cssCBSLeft:hover{
+		width:15px;
+		height:20px;
+		float:left;
+		margin:0 5px 0 0;
+		background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -55px 0;
+		cursor:pointer;
+		position:relative;
+		top:-8px;
+		*top:-13px;
+	}
+	
+	.cssCBSCenter{
+		width:90px;
+		*width:80px;
+		height:20px;
+		float:left;
+		position:relative;
+		top:-8px;
+		*top:-14px;		
+	}
+	
+	.cssCBSRight{
+		width:15px;
+		height:20px;
+		float:left;
+		margin:0 0 0 5px;
+		background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -70px 0;
+		cursor:pointer;
+		position:relative;
+		top:-8px;
+		*top:-13px;
+	}
+	.cssCBSRight:hover{
+		width:15px;
+		height:20px;
+		float:left;
+		margin:0 0 0 5px;
+		background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -85px 0;
+		cursor:pointer;
+		position:relative;
+		top:-8px;
+		*top:-14px;
+	}
+
+	
+	
+.ui-widget{
+	font-size: 0.6em !important;
+}
+
+#slider{
+	position:relative;
+	top:6px;}
+
+.cssEvtCtrl{
+	position:relative;
+	z-index:1;
+}
+
+.cssLayer{
+	position:relative;
+	z-index:999;
+}
+
+.cssContSubmenu{	
+	padding:20px;
+	background:#FC0;
+}
+/*END Barra de herramientas*/

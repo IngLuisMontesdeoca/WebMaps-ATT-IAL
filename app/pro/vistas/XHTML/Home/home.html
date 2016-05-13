@@ -1,0 +1,931 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>.:: Inicio - iAlarm ::.</title>
+    <link type="text/css" href="../../../css/Home/home.css" rel="stylesheet"/>
+    {scripts}
+    {SCRIPTSHEADER}
+    <script type="text/javascript" src="../../../js/Home/home.js"></script>
+</head>
+
+<body>
+    
+    <div id="dvBgLayer" class="cssBgLayer cssOculta"></div>
+    <!-- START Header -->
+    <div class="cssHHead">
+        <div class="cssHHLogo"></div>
+        <div class="cssHHNav">
+            {MNAVEGADOR}    	
+        </div>
+    </div>
+    <!-- END Header -->
+
+    <!-- START Body -->
+    <div class="cssHBody">
+        <div class="cssHBContenido">
+
+            <!-- START Sección Equipos-->
+            <div id="dvModulo01" class="cssSeccion evtHide">
+                <div class="cssSHeader">
+
+                    <div class="cssCESInt">  
+                        <div class="cssContS00 cssAlt00">
+                            <div>
+                                <span><input checked="checked" id="txtRPTN" type="radio" 
+                                             name="radioEquipos" value="PTN" class="cssRadio01"/></span>
+                                <span>PTN</span>
+                            </div>
+
+                            <div>
+                                <span><input id="txtRCuenta" type="radio" name="radioEquipos" value="cuenta" 
+                                             class="cssRadio01"/></span>
+                                <span>Cuenta</span>
+                            </div>
+                            <div>
+                                <span><input id="txtREmpresa" type="radio" name="radioEquipos" value="cliente" 
+                                             class="cssRadio01"/></span>
+                                <span>Cliente</span>
+                            </div>
+                            <div>
+                                <span><input id="txtRRed" type="radio" name="radioEquipos" value="red" 
+                                             class="cssRadio01"/></span>
+                                <span>Red</span>
+                            </div> 
+                            <div>
+                                <span><input id="txtRPlan" type="radio" name="radioEquipos" 
+                                             value="plan" class="cssRadio01"/></span>
+                                <span>Plan</span>
+                            </div>
+                            <div>
+                                <span><input id="txtRServicio" type="radio" name="radioEquipos" 
+                                             value="servicio" class="cssRadio01"/></span>
+                                <span>Servicio</span>
+                            </div>
+                            <div>
+                                <span><input id="txtREstatus" type="radio" name="radioEquipos" 
+                                             value="estatus" class="cssRadio01"/></span>
+                                <span>Estatus</span>
+                            </div>
+                        </div>
+
+                        <div class="cssContS01 cssAlt01">
+                            <div class="cssCESLeft">
+                                <input type="text" title="Realizar Busqueda.." 
+                                       placeholder="Ingrese criterio" 
+                                       class="txtTranspSearch02 evtExample example cssNTxtP01" id="txtEEBuscador">
+
+                                <div id="dvUComboRed" class="cssUCombo cssOculta">
+                                    <span>
+                                        {COMBONETWORKCONSULTAR}
+                                    </span>
+                                </div>
+
+                                <div id="dvUComboEstatus" class="cssUCombo cssOculta">
+                                    <span>
+                                        {COMBOESTATUSCONSULTAR}
+                                    </span>
+                                </div>
+
+                                <div id="dvUComboPlan" class="cssUCombo cssOculta">
+                                    <span>
+                                        {COMBONETPLANCONSULTAR}
+                                    </span>
+                                </div>
+
+                                <div id="dvUComboServicio" class="cssUCombo cssOculta">
+                                    <span>
+                                        {COMBOSERVICIOCONSULTAR}
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="cssCESRight">
+                                <div class="evtUEBtn cssCESR_01" title="Buscar" id="dvEEBtnSearch"></div>
+                                <div class="evtUEBtn cssCESR_02" title="Agregar" id="dvEEBtnAdd"></div>
+                                <div class="evtUEBtn cssCESR_03" title="Ver todos" id="dvEEBtnAll"></div>
+                            </div>                                        
+                        </div>
+                    </div>     
+                </div>
+
+                <div class="cssSBody">
+                    <div class="cssSBInt">
+                        <div class="cssSBIHeader">
+                            <!--
+                            <div>
+                                    <span><input checked="checked" id="txtRPTN" type="radio" 
+                                name="radioEquipos" value="PTN" class="cssRadio01"/></span>
+                                <span>PTN</span>
+                            </div>
+                            <div>
+                                    <span><input id="txtRCuenta" type="radio" name="radioEquipos" value="cuenta" class="cssRadio01"/></span>
+                                <span>Cuenta</span>
+                            </div>
+                            <div>
+                                    <span><input id="txtREmpresa" type="radio" name="radioEquipos" value="empresa" class="cssRadio01"/></span>
+                                <span>Empresa</span>
+                            </div>
+                            <div>
+                                    <span><input id="txtRRed" type="radio" name="radioEquipos" value="red" class="cssRadio01"/></span>
+                                <span>Red</span>
+                            </div>
+                            
+                            <div>
+                                    <span>
+                                    {COMBONETWORKCONSULTAR}
+                                </span>
+                            </div>
+                            
+                            <div>
+                                    <span><input id="txtREstatus" type="radio" name="radioEquipos" 
+                                value="estatus" class="cssRadio01"/></span>
+                                <span>Estatus</span>
+                            </div>
+                            
+                            <div>
+                                    <span>
+                                    {COMBOESTATUSCONSULTAR}
+                                </span>
+                            </div>
+                            -->                     
+                        </div>
+                        <div class="cssSBIBody">
+                            <div class="cssSBIBHeader">
+                                <div title="Suapender los elementos checkbox seleccionados" id="dvSuspenderEquipo"><a>Suspender</a></div>
+                                <div><span>|</span></div>
+                                <div title="Eliminar los elementos checkbox seleccionados" id="dvEliminarEquipos" class="evtDeleteEquipos"><a>Eliminar</a></div>
+                                <div><span>|</span></div>
+                                <div title="Activar los elementos checkbox seleccionados" id="dvActivarEquipo" class="evtActvEquipos"><a>Reactivar</a></div>
+                                <!-- Start Ayuda -->
+                                <div title="Ayuda - Equipos" class="cssIconAyuda evtIconAyuda"></div>
+                                <div class="cssContAyuda cssOculta evtContAyuda evtHelpHide">
+                                    <div class="cssCAHeader"></div>
+                                    <div class="cssCABody">
+                                        <h3>Ayuda - Equipos <div title="Cerrar" class="cssHClose evHCLose"></div></h3>
+                                        <ul>
+                                            <li>
+                                                Puede realizar búsquedas por medio de un criterio en el buscador 
+                                                de éste módulo.
+                                            </li>
+                                            <li>
+                                                Puede agregar un nuevo equipo, una cuenta y un cliente dando clic al botón "Agregar".
+                                            </li>
+                                            <li>
+                                                Puede solicitar ver todos los equipos dando clic al botón 
+                                                "Ver todos".
+                                            </li>
+                                            <li>
+                                                El módulo permite, "Suspender", "Eliminar" y "Activar" equipos.
+                                            </li>
+                                            <li>
+                                                El módulo permite filtrar la búsqueda por "PTN", "Cuenta",
+                                                "Cliente", "Red", "Plan", "Servicio", y "Estatus" para ello selecciones el radio 
+                                                botón que quiera filtrar.
+                                            </li>
+
+                                            <li>
+                                                Los resultados se pueden filtrar por medio del campo de 
+                                                textos "Filtro" solo ingrese una palabra y se mostrarán 
+                                                las coincidencias
+                                            </li>
+                                            <li>
+                                                Configure los mensajes que se envian y el periodo de envío dando clic al 
+                                                botón "Configurar".
+                                            </li>
+                                            <li>
+                                                Agregue contactos dando clic al botón "Agregar contactos".
+                                            </li>
+                                            <li>
+                                                Puede ordenar la búsqueda por medio del ordenador dando clic 
+                                                al ícono que se muestra en el header de la tabla de resultados.
+                                            </li>
+                                            <li>
+                                                La tabla de resultados contiene un paginador, el cual permite 
+                                                configurar los resultados y cambiar de páginas.
+                                            </li>
+                                        </ul>
+                                    </div>                            
+                                </div>
+                                <!-- End Ayuda -->
+                                <div id="dvValidEq" class=""></div>                            
+                            </div>
+
+                            <!-- START Layer Configuración -->
+                            <div id="dvELConf" class="cssBodyConf evtCCHide cssOculta">
+
+                                <div class="cssBCHeader">
+                                    <div class="cssBCHTitle">Configuración <span id="spTextConfig"></span></div>
+                                    <div title="Cerrar" id="dvConfigClose" class="cssBCHClose"></div>
+                                    <div class="cssConfigBody">
+                                        <div id="dvLCBody">
+                                            <!--
+                                            <div>
+                                                Mensajes enviados:
+                                                <select id="selMEnviados" class="cssSelBC01">
+                                                    <option>.:: 10 minutos ::.</option>
+                                                    <option>.:: 15 minutos ::.</option>
+                                                    <option>.:: 20 minutos ::.</option>
+                                                    <option>.:: 30 minutos ::.</option>
+                                                    <option>.:: 45 minutos ::.</option>
+                                                    <option>.:: 60 minutos ::.</option>
+                                                </select>
+                                            </div>
+                                            <div>
+                                                Periodo de envío:
+                                                <select id="selPEnvio" class="cssSelBC01">
+                                                    <option>.:: 1 horas ::.</option>
+                                                    <option>.:: 5 horas ::.</option>
+                                                    <option>.:: 12 horas ::.</option>
+                                                    <option>.:: 24 horas ::.</option>
+                                                    <option>.:: 36 horas ::.</option>
+                                                    <option>.:: 48 horas ::.</option>
+                                                </select>
+                                            </div>
+                                            -->
+                                        </div>
+                                        <div id="dvLayerBtn" class="cssLayerBtn01 evtLClose">Guardar</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- END Layer Configuración -->
+
+                            <!-- START Layer Contacto -->
+                            <div id="dvELContact" class="cssBodyContact evtCCHide cssOculta">
+                                <div class="cssLBCHeader">
+                                    <div class="cssBCHCTitle">Contacto <span id="spTextContact"></span></div>
+                                    <div title="Cerrar" id="dvContactClose" class="cssBCHCClose"></div>
+                                </div>
+                                <div class="cssLBCBody">
+                                    <div class="cssLBCIntHeader">
+                                        <div class="cssLMLeft01">
+                                            Nombre
+                                            <input id="txtAddCName" type="text" class="cssTxtAddUser01 cssMarg001">
+                                        </div>
+                                        <div class="cssLMLeft01">
+                                            Tipo
+                                            <select id="selAddCTipo" class="cssTxtAddUser01 cssMarg002">
+                                                <option value="1">.:: Telefóno ::.</option>
+                                                <option value="2">.:: Correo ::.</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="cssLMLeft01">
+                                            <span id="spAddCNumber">Número</span>
+                                            <input id="txtAddCNumber" maxlength="12" type="text" class="cssTxtAddUser01 cssMarg001">
+                                        </div>
+                                        <div class="cssLMLeft02">
+                                            <div title="Guardar" id="dvAddContact" class="cssBtn01">Guardar</div>
+                                        </div>
+                                    </div>
+                                    <div class="cssLBCBIntBody">
+                                        <div class="cssLIntHeader">
+                                            <a id="aBtnCEliminar">Eliminar</a>
+                                            <div class="cssIconAyuda cssIA001 evtIconAyudaLayer" title="Ayuda - Contactos"></div>
+                                            <div id="dvEqCValidation"></div>
+                                            <div class="cssContAyuda cssOculta evtContAyudaLayer">
+                                                <div class="cssCAHeader"></div>
+                                                <div class="cssCABody">
+                                                    <h3>Ayuda - Agregar Contactos <div title="Cerrar" class="cssHClose evHCLoseLayer"></div></h3>
+                                                    <ul>
+                                                        <li>
+                                                            Para agregar un contacto llene los campo de "Nombre" y seleccione 
+                                                            el tipo de contacto (Número telefónico o Correo) e ingrese 
+                                                            la información en el campos "Número" o "Correo" según sea el caso. 
+                                                        </li>
+                                                        <li>
+                                                            Puede editar cada contacto dando clic en el botón "Editar", al terminar 
+                                                            la edición de clic en el botón "Guardar".
+                                                        </li>
+                                                        <li>
+                                                            Puede eliminar uno o varios contactos seleccionando su "checkbox" 
+                                                            correspondiente y dando clic la opción "Eliminar".
+                                                        </li>
+
+                                                    </ul>
+                                                </div>                            
+                                            </div>
+
+                                        </div>
+                                        <div id="dvAddTableContacts" class="cssLIntBody">
+                                            <table id="tableAppContacts" class="cssEqTable tablesorter">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="cssEAddC01">#</th>
+                                                        <th class="cssEAddC02"><input type="checkbox" 
+                                                                                      class="cssChckAll evtChkEContactsAll"/></th>
+                                                        <th class="cssEAddC03">Nombre</th>
+                                                        <th class="cssEAddC04">Tipo</th>
+                                                        <th class="cssEAddC05">Número / Correo</th>
+                                                        <th class="cssEAddC06">Opciones</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="tbAddBodyContacts">
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>
+                                                            <div>
+                                                                <input id="" class="cssChckOne" 
+                                                                       type="checkbox" name="chkContactAdd" value="">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div>
+                                                                <input id="" 
+                                                                       class="cssInptTransp cssOculta" type="text" value="" 
+                                                                       disabled="disabled">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div>
+                                                                <select id="" disabled="disabled" 
+                                                                        class="cssTxtAddUser cssInptTransp cssOculta" type="text">
+                                                                    <option selected="" value="1">.:: Número ::.</option>
+                                                                    <option value="2">.:: Correo ::.</option>
+                                                                </select>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div>
+                                                                <input id="" 
+                                                                       class="cssInptTransp cssOculta" type="text" value=""
+                                                                       disabled="disabled"> 	   
+                                                            </div> 
+                                                        </td>
+                                                        <td>
+                                                            <div id="" class="cssBtnUEdit"></div>
+                                                        </td>                                                        
+                                                    </tr>
+                                                </tbody> 
+                                            </table>
+                                        </div>
+                                        <div id="dvPagAddContacts" class="cssLIntFooter"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END Layer Contacto -->
+
+                            <div id="dvContTablaEquipos" class="cssSBIBBody">                        	
+                                {TABLEHANDSET}
+                            </div>
+                            <div id="dvPagerEquipos" class="cssSBIBFooter pager">
+                            </div>                    
+                        </div>
+                    </div>            
+                </div>
+            </div>
+            <!-- END Sección Equipos-->
+
+
+
+            <!-- START Sección Add-->
+            <div id="dvModulo02" class="cssSeccion cssOculta evtHide">
+
+                <div class="cssAddGHeader">
+                    <span>Agregar Equipos</span>                
+                    <div title="Cerrar" id="dvAddEClose" class="cssAddGHClose"></div>
+                </div>
+
+                <div class="cssAddGBody">
+
+                    <div class="cssSLHeader">            	
+                        <div class="cssSLH00">
+                            <span>Cliente:</span>                    
+                            <div id="dvEmpresa01" class="cssSLHLine">
+                                <div class="cssSLHLRight">
+                                    <div id="dvAddEmpresa" class="cssLEAdd"></div>	
+                                </div>                        
+                                <div class="cssSLHLLeft">                            
+                                    {COMBOCLIENTEGUARDAR}
+                                </div>
+                            </div>
+
+                            <div id="dvEmpresa02" class="cssSLHLine cssOculta">
+                                <div class="cssSLHLRight">
+                                    <div id="dvSaveEmpresa" class="cssLESave"></div>	
+                                </div>                        
+                                <div class="cssSLHLLeft">
+                                    <input type="text" class="cssInp100" id="txtEmpresa" maxlength="45"/>
+                                </div>
+                            </div>              
+                        </div>
+
+                        <div class="cssSLH00">
+                            <span>Cuenta:</span>
+
+                            <div id="dvCuenta01" class="cssSLHLine">
+                                <div class="cssSLHLRight">
+                                    <div id="dvAddCuenta01" class="cssLEAdd"></div>	
+                                </div>                        
+                                <div class="cssSLHLLeft">                            
+                                    {COMBOCUENTAGUARDAR}
+                                </div>
+                            </div>
+
+                            <div id="dvCuenta02" class="cssSLHLine cssOculta">
+                                <div class="cssSLHLRight">
+                                    <div id="dvSaveCuenta01" class="cssLESave"></div>
+                                </div>
+                                <div class="cssSLHLLeft">
+                                    <input id="txtCuenta01" type="text" class="cssInp100" maxlength="30"/>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="cssSLH00">
+                            <span>PTN:</span>
+                            <div id="dvPTN01" class="cssSLHLine">
+                                <div class="cssSLHLRight"></div>
+                                <div class="cssSLHLLeft">
+                                    <input type="text" maxlength="12" id="txtPTN" class="cssInp100"/>   
+                                </div>
+                            </div> 
+                        </div>
+
+
+                        <div class="cssSLH00">
+                            <span>Red:</span>
+                            <div id="dvPTN01" class="cssSLHLine">
+                                <div class="cssSLHLRight"></div>                                                
+                                <div class="cssSLHLLeft">
+                                    {COMBONETWORKGUARDAR}
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="cssSLH00">
+                            <span>Plan:</span>
+                            <div id="dvPlan01" class="cssSLHLine">
+                                <div class="cssSLHLRight"></div>                                                
+                                <div class="cssSLHLLeft">
+                                    {COMBONETPLANGUARDAR}
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="cssSLH00">
+                            <span>Servicio:</span>
+                            <div id="dvServicio01" class="cssSLHLine">
+                                <div class="cssSLHLRight"></div>                                                
+                                <div class="cssSLHLLeft">
+                                    {COMBOSERVICIOGUARDAR}
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div id="spFechaCorte" class="cssSLH02 cssOculta">
+                            <span>Fecha de corte:</span>
+                            <div id="dvCorte01" class="cssSLHLine">
+                                <div class="cssSLHLRight"></div>
+                                <div class="cssSLHLLeft">
+                                <input id="txtEquiposFechaCorte" type="text" class="cssInp101" 
+                                placeholder="Fecha inicio"/>  
+                                </div>
+                            </div> 
+                        </div>
+
+                        
+                        
+                        <div class="cssSLH02">
+                            <div class="cssLogsBtn01" id="dvLAdd">Agregar</div>
+                        </div>
+
+                        <div class="cssLineAlt">
+                            <a class="cssBtnEl evtDeleteEquipos" id="dvEqEliminar01">Eliminar</a>
+                            <!-- Start Ayuda -->
+                            <div title="Ayuda - Agregar Equipos" class="cssIconAyuda evtIconAyuda"></div>
+                            <div class="cssContAyuda cssOculta evtContAyuda evtHelpHide cssHelp01">
+                                <div class="cssCAHeader"></div>
+                                <div class="cssCABody">
+                                    <h3>Ayuda - Agregar Equipos <div title="Cerrar" class="cssHClose evHCLose"></div></h3>
+                                    <ul>
+                                        <li>
+                                            Para agregar un equipo es necesario agregar un "Cliente", 
+                                            "Cuenta", "PTN", "Red", "Plan", y "Servicio".
+                                        </li>
+                                        <li>
+                                            Para regresar al módulo de "Equipos" tiene que dar clic al 
+                                            botón "Cerrar", ubicado en la parte superior derecha del módulo.
+                                        </li>
+
+                                    </ul>
+                                </div>                            
+                            </div>
+                            <!-- End Ayuda -->
+                            <div id="dvValidEqAlt" class=""></div>
+                        </div>            
+
+                    </div>
+                    <div id="dvContTabAppendEmpres" class="cssSLBody">
+                        <table id="tableAppendEmpresas" class="cssEqTable tablesorter">
+                            <thead>
+                                <tr>
+                                    <th class="cssNEA01">#</th>
+                                    <th class="cssNEA02"><input type="checkbox" class="cssChckAll evtChkAdmEquiposAll"/></th>
+                                    <th class="cssNEA03">Empresa</th>
+                                    <th class="cssNEA04">Cuenta</th>
+                                    <th class="cssNEA05">PTN</th>
+                                    <th class="cssNEA06">Red</th>
+                                    <th class="cssNEA07">Plan</th>
+                                    <th class="cssNEA08">Servicio</th>
+                                    <th class="cssNEA08">Fecha de corte</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbAppendEmpresas"></tbody> 
+                        </table>
+                    </div>
+                    <div class="cssSLFooter">
+                        <div class="cssSLFPag"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Sección Add-->
+
+
+            <!-- START Sección Usuarios-->
+            <div id="dvModulo03" class="cssSeccion cssOculta evtHide">
+                <!-- start Header-->
+                <div class="cssSHeader">
+                    <div class="cssCESInt">
+                        <div class="cssContS00">
+                            <div class="cssCSU001">
+                                <span><input checked="checked" value="nombre" id="txtUName" type="radio" 
+                                             name="radioUsuarios" class="cssRadio01"/></span>
+                                <span>Nombre</span>
+                            </div>
+                            <div class="cssCSU001">
+                                <span><input id="txtULogin" value="login" type="radio" name="radioUsuarios" 
+                                             class="cssRadio01"/></span>
+                                <span>Login</span>
+                            </div>
+                            <div class="cssCSU001">
+                                <span><input id="txtUMail" value="correo" type="radio" name="radioUsuarios" 
+                                             class="cssRadio01"/></span>
+                                <span>Correo</span>
+                            </div> 
+                        </div>
+                        <div class="cssContS01">                    
+                            <div class="cssCESLeft">
+                                <input type="text" title="Realizar Busqueda.." 
+                                       placeholder="Ingrese criterio" 
+                                       class="txtTranspSearch02 evtExample example cssNTxtP01" id="txtEUsBuscador">
+                            </div>
+                            <div class="cssCESRight">
+                                <div class="evtUEBtn cssCESR_01" title="Buscar" id="dvUserSearch"></div>
+                                <div class="evtUEBtn cssCESR_02" title="Agregar" id="dvUserBtnShowAdd"></div>
+                                <div class="evtUEBtn cssCESR_03" title="Ver todos" id="dvUserBtnAll"></div>
+                            </div> 
+                        </div>                          
+                    </div> 
+                </div>
+                <!-- end Header-->
+
+                <!-- start Body-->
+                <div class="cssSBody">
+                    <div class="cssSBInt">
+                        <div class="cssSBIHeader"></div>
+                        <div class="cssSBIBody">
+                            <div class="cssSBIBHeader">
+                                <div title="Eliminar los elementos checkbox seleccionados" id="dvUsEliminar01" 
+                                     class="cssEliminar01"><a>Eliminar</a></div>
+                                <!-- Start Ayuda -->
+                                <div title="Ayuda - Usuarios" class="cssIconAyuda evtIconAyuda"></div>
+                                <div class="cssContAyuda cssOculta evtContAyuda evtHelpHide">
+                                    <div class="cssCAHeader"></div>
+                                    <div class="cssCABody">
+                                        <h3>Ayuda - Usuarios <div title="Cerrar" class="cssHClose evHCLose"></div></h3>
+                                        <ul>
+                                            <li>
+                                                Puede realizar búsquedas por medio de un criterio en el buscador 
+                                                de éste módulo.
+                                            </li>
+                                            <li>
+                                                Puede agregar un nuevo usuario dando clic al botón "Agregar".
+                                            </li>
+                                            <li>
+                                                Puede solicitar ver todos los usuarios dando clic al botón 
+                                                "Ver todos".
+                                            </li>
+                                            <li>
+                                                El módulo permite "Eliminar" Usuarios.
+                                            </li>
+                                            <li>
+                                                El módulo permite filtrar la búsqueda por 
+                                                "Nombre", "Login", "Correo", para ello selecciones el radio botón
+                                                que quiera filtrar.
+                                            </li>
+
+                                            <li>
+                                                Los resultados se pueden filtrar por medio del campo de 
+                                                textos "Filtro" solo ingrese una palabra y se mostrarán 
+                                                las coincidencias
+                                            </li>
+                                            <li>
+                                                Puede ordenar la búsqueda por medio del ordenador dando clic 
+                                                al ícono que se muestra en el header de la tabla de resultados.
+                                            </li>
+                                            <li>
+                                                La tabla de resultados contiene un paginador, el cual permite 
+                                                configurar los resultados y cambiar de páginas.                                            
+                                            </li>
+                                        </ul>
+                                    </div>                            
+                                </div>
+                                <!-- End Ayuda -->
+                                <div id="dvValidUser" class=""></div>
+                            </div>
+                            <div id="dvContTableUsuarios" class="cssSBIBBody">
+                                {TABLEUSUARIO}
+                            </div>
+                            <div id="dvPagerUsuarios" class="cssSBIBFooter"></div>                    
+                        </div>
+                    </div>            
+                </div>
+                <!-- end Body-->            
+            </div>
+            <!-- END Sección Usuarios-->
+
+
+            <!-- START Sección Agregar Usuarios-->
+            <div id="dvModulo04" class="cssSeccion cssOculta evtHide">
+
+                <div class="cssAddGHeader">
+                    <span>Agregar Usuarios</span>                
+                    <div title="Cerrar" id="dvAddUClose" class="cssAddGHClose"></div>
+                </div>
+
+                <div class="cssAddGBody">
+                    <div class="cssSBIBHeaderUser">
+                        <div class="cssSLUH01">
+                            <div>
+                                <span>Nombre</span>
+                                <input id="txtNombreUser" type="text" class="cssTxtAddUser01" maxlength="70"/>
+                            </div>
+                        </div>
+                        <div class="cssSLUH01">
+                            <div>
+                                <span>Login</span>
+                                <input id="txtLoginUser" type="text" class="cssTxtAddUser01" maxlength="30"/>
+                            </div>	
+                        </div> 
+                        <div class="cssSLUH01">
+                            <div>
+                                <span>E-mail</span>
+                                <input id="emailUser" type="text" class="cssTxtAddUser01" maxlength="45"/>
+                            </div>	
+                        </div>
+                        <div class="cssSLUH01">                    
+                            <div>
+                                <span>Tipo</span>{COMBOUSUARIOGUARDAR}
+                            </div>
+                        </div>             
+                        <div class="cssSLUH01">
+                            <div id="dvSaveUserNew" class="cssUsersBtn01">Agregar</div>	
+                        </div>           
+                        <div class="cssLineAlt">
+                            <a id="dvUsEliminar02" class="cssBtnEl">Eliminar</a>
+                            <!-- Start Ayuda -->
+                            <div title="Ayuda - Agregar Usuarios" class="cssIconAyuda evtIconAyuda"></div>
+                            <div class="cssContAyuda cssOculta evtContAyuda evtHelpHide cssIconAyudaNew">
+                                <div class="cssCAHeader"></div>
+                                <div class="cssCABody">
+                                    <h3>Ayuda - Agregar Usuarios <div title="Cerrar" class="cssHClose evHCLose"></div></h3>
+                                    <p>Para guardar un nuevo usuario debe ingresar los siguientes campos:</p>
+                                    <ul>                                   
+                                        <li>Nombre (Sólo caracteres alfabéticos)</li>
+                                        <li>Login (Sólo caracteres alfanuméricos)</li>
+                                        <li>Correo electrónico</li>
+                                        <li>Tipo de usuario</li>                                    
+                                        <li>dar clic al botón "Agregar"</li>
+                                        <li>
+                                            Para regresar al módulo de "Usuarios" tiene que dar clic al 
+                                            botón "Cerrar", ubicado en la parte superior derecha del módulo.
+                                        </li>
+                                    </ul>
+                                </div>                            
+                            </div>
+                            <!-- End Ayuda -->
+                            <div id="dvAUValidaciones" class=""></div>
+                        </div>
+                    </div> 
+                    <div id="dvContTblUser" class="cssSBIBBodyUser">
+                        <table id="tblAddUser" class="tablesorter cssEqTable">
+                            <thead>
+                                <tr>
+                                    <th class="cssUT00">#</th>
+                                    <th class="cssUT000">
+                                        <input type="checkbox" class="cssChckAll evtChkAdmUserAll">
+                                    </th>                          
+                                    <th class="cssUT01">Nombre</th>
+                                    <th class="cssUT02">Login</th>
+                                    <th class="cssUT03">E-mail</th>
+                                    <th class="cssUT04">Tipo</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dvContBodyUser"></tbody> 
+                        </table>
+                    </div>
+                    <div class="cssSBIBFooter"></div> 	
+                </div>
+            </div>
+            <!-- END Sección Agregar Usuarios-->
+
+
+
+            <!-- START Sección Logs-->
+            <div id="dvModulo05" class="cssSeccion cssOculta evtHide">
+                <div class="cssSLogsHeader">
+                    <div class="cssSLogsHTop">
+                        <div id="fechaInicioLogs" class="cssSLogsH01"><span>Fecha inicio</span></div>
+                        <div id="fechaFinLogs" class="cssSLogsH01"><span>Fecha fin</span></div>
+                        <div class="cssSLogsH01"><span>Actividades</span></div>
+                        <div class="cssSLogsH01"><span>Usuarios</span></div>
+                        <div class="cssSLogsH01 cssNoImage"><span>Opciones</span></div>
+                    </div>
+                    <div class="cssSLogsHBottom">
+                        <div class="cssSLogsH01">
+                            <div><input id="txtLogsFechaInicio" type="text" class="cssTxtAddUser cssNTxtP01" placeholder="Fecha inicio"/></div>
+                        </div>
+                        <div class="cssSLogsH01">
+                            <div><input id="txtLogsFechaFin" type="text" class="cssTxtAddUser cssNTxtP01" placeholder="Fecha fin"/></div>
+                        </div>
+                        <div class="cssSLogsH01">
+                            <div>
+                                {COMBOACTIVIDADCONSULTAR}
+                            </div>
+                        </div>
+                        <div class="cssSLogsH01">
+                            <div class="cssLogSExtra">                        	
+                                {COMBOUSUARIOLOGINCONSULTAR}
+                            </div>                        
+                            <div class="cssLinkLogs01"><a id="dvLinkLogs01">Cambiar a Inactivos</a></div>
+                        </div>
+
+                        <div class="cssSLogsH02">
+                            <div>
+                                <div id="dvBtnLConsultar" class="cssLogsBtnLeft">Consultar</div>
+                                <div id="dvBtnLLimpiar" class="cssLogsBtnBigDisabled">Limpiar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cssSLogsBody">
+                    <div class="cssSLBHeader">
+                        <!-- Start Ayuda -->
+                        <div title="Ayuda - Logs" class="cssIconAyuda evtIconAyuda"></div>
+                        <div class="cssContAyuda cssOculta evtContAyuda evtHelpHide">
+                            <div class="cssCAHeader"></div>
+                            <div class="cssCABody">
+                                <h3>Ayuda - Logs <div title="Cerrar" class="cssHClose evHCLose"></div></h3>
+                                <ul>                            	
+                                    <li>
+                                        Para realizar consultas es necesario llenar los siguientes campos: Fecha inicio, 
+                                        Fecha fin, Actividades, Usuarios y dar clic en el botón "Consultar". 
+                                    </li>
+                                    <li>
+                                        El módulo permite limpiar las búsquedas realizadas dando clic al botón "Limpiar".
+                                    </li>
+                                    <li>
+                                        Los resultados se pueden filtrar por medio del campo de 
+                                        textos "Filtro" solo ingrese una palabra y se mostrarán 
+                                        las coincidencias
+                                    </li>
+                                    <li>
+                                        Puede ordenar la busqueda por medio del ordenador dando clic 
+                                        al ícono que se muestra en el header de la tabla de resultados.
+                                    </li>
+                                    <li>
+                                        La tabla de resultados contiene un paginador, el cual permite 
+                                        configurar los resultados y cambiar de páginas.
+
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </div>
+                        <!-- End Ayuda -->
+                        <div id="dvLogsValidaciones" class=""></div>
+                    </div>
+                    <div class="cssSLBBody">
+                        <div id="dvResultLogs" class="cssCLogsHeader">
+                            {TABLELOGS}
+                        </div>	
+                        <div id="dvPagerLogs" class="cssCLogsBody"></div>                	
+                    </div>
+                </div>
+            </div>
+            <!-- END Sección Logs-->
+
+
+            <!-- START Sección Reportes-->
+            <div id="dvModulo06" class="cssSeccion cssOculta evtHide">
+                <div class="cssSLogsHeader">
+                    <div class="cssSLogsHTop">
+                        <div id="fechaInicioReportes" class="cssSLogsH01"><span>Fecha inicio</span></div>
+                        <div id="fechaFinReportes" class="cssSLogsH01"><span>Fecha fin</span></div>
+                        <div class="cssSLogsH01"><span>Tipo de reporte</span></div>
+                        <div class="cssSLogsH01 cssNoImage"><span>Opciones</span></div>
+                    </div>
+                    <div class="cssSLogsHBottom">
+                        <div class="cssSLogsH01">
+                            <div>
+                                <input id="txtReportesFechaInicio" type="text" class="cssTxtAddUser cssNTxtP01" 
+                                placeholder="Fecha inicio"/>
+                            </div>
+                        </div>
+                        <div class="cssSLogsH01">
+                            <div>
+                                <input id="txtReportesFechaFin" type="text" class="cssTxtAddUser cssNTxtP01" 
+                                placeholder="Fecha fin"/>
+                            </div>
+                        </div>
+                        <div class="cssSLogsH01">
+                            <div>
+                                <select class="cssTxtAddUser" id="selTipoReporte">
+                                    <option value = "0" selected>Seleccionar Tipo Reporte</option>
+                                    <option value = "1">Mensajes</option>
+                                    <option value = "2">Cobros</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="cssSReportesH02">
+                            <div class="cssBtnsRep">
+                                <div id="dvBtnLConsultarReportes" class="cssLogsBtnLeft">Consultar</div>
+                                <div id="dvBtnLLimpiarReportes" class="cssOculta cssLogsBtnBigDisabled">Limpiar</div>
+                                <div id="dvBtnExportXLS" title="Exportar en formato xls" 
+                                class="cssOculta cssLogsBtnSmallDisabled "><span></span>XLS</div>  
+                                <div id="dvBtnExportTXT" title="Exportar en formato txt" 
+                                class="cssOculta cssLogsBtnSmallDisabled "><span></span>TXT</div>                                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cssSLogsBody">
+                    <div class="cssSLBHeader">
+                        <!-- Start Ayuda -->
+                        <div title="Ayuda - Reportes" class="cssIconAyuda evtIconAyuda"></div>
+                        <div class="cssContAyuda cssOculta evtContAyuda evtHelpHide">
+                            <div class="cssCAHeader"></div>
+                            <div class="cssCABody">
+                                <h3>Ayuda - Logs <div title="Cerrar" class="cssHClose evHCLose"></div></h3>
+                                <ul>                            	
+                                    <li>
+                                        Para realizar consultas es necesario llenar los siguientes campos: Fecha inicio, 
+                                        Fecha fin, Tipo de reporte y dar clic en el botón "Consultar". 
+                                    </li>
+                                    <li>
+                                        El módulo permite limpiar las búsquedas realizadas dando clic al botón "Limpiar".
+                                    </li>
+                                    <li>
+                                        Los resultados se pueden filtrar por medio del campo de 
+                                        textos "Filtro" solo ingrese una palabra y se mostrarán 
+                                        las coincidencias
+                                    </li>
+                                    <li>
+                                        Puede ordenar la busqueda por medio del ordenador dando clic 
+                                        al ícono que se muestra en el header de la tabla de resultados.
+                                    </li>
+                                    <li>
+                                        La tabla de resultados contiene un paginador, el cual permite 
+                                        configurar los resultados y cambiar de páginas.
+
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </div>
+                        <!-- End Ayuda -->
+                        <div id="dvReportesValidaciones" class=""></div>
+                    </div>
+                    <div class="cssSLBBody">
+                        <div id="dvResultReportes" class="cssCLogsHeader">
+                            {TABLEREPORTES}
+                        </div>	
+                        <div id="dvPagerReportes" class="cssCLogsBody"></div>                	
+                    </div>
+                </div>
+                <!-- END Sección Reportes-->
+                
+                </div>
+
+            </div>
+        </div>
+        <!-- END Body -->
+
+
+        <!-- START Footer -->
+        <div class="cssHFooter">
+            <div class="cssHFCenter">
+                <p>
+                    © Derechos Reservados 2014 Comunicaciones de México, S.A. de C.V.
+                </p>
+                <p>
+                    Paseo de los Tamarindos No. 90. Col. Bosques de las Lomas Del. Cuajimalpa C.P. 05120 M&eacute;xico, 
+                    D.F. M&eacute;xico <img width="12" height="8" src="../../../css/Home/images/mini_conectores.jpg"> y Tu Mundo. Ahora son M.R. 
+                </p>
+            </div>
+        </div>
+        <!-- END Footer -->
+        {SCRIPTSFOOTER}
+</body>
+</html>

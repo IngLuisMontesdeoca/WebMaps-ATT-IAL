@@ -1,0 +1,292 @@
+08:04:41 - H=3394|OP=[retrieveSubscriber]---------------------------------------------------------
+08:04:41 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+08:04:41 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525562933274</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+08:04:41 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+08:04:44 - H=3394|OP=[amountCharging]---------------------------------------------------------
+08:04:44 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+08:04:44 - XMLSent|
+08:04:44 - XMLReceived|
+08:31:52 - H=3395|OP=[retrieveSubscriber]---------------------------------------------------------
+08:31:52 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+08:31:52 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>527225826069</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+08:31:52 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>2</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+08:31:54 - H=3395|OP=[amountCharging]---------------------------------------------------------
+08:31:54 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+08:31:54 - XMLSent|
+08:31:54 - XMLReceived|
+09:57:13 - H=3396|OP=[retrieveSubscriber]---------------------------------------------------------
+09:57:13 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+09:57:13 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525544165969</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+09:57:13 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>2</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+09:57:15 - H=3396|OP=[amountCharging]---------------------------------------------------------
+09:57:15 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+09:57:15 - XMLSent|
+09:57:15 - XMLReceived|
+11:11:13 - H=3397|OP=[retrieveSubscriber]---------------------------------------------------------
+11:11:13 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+11:11:13 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525563526105</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+11:11:13 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+11:11:15 - H=3397|OP=[amountCharging]---------------------------------------------------------
+11:11:15 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+11:11:15 - XMLSent|
+11:11:15 - XMLReceived|
+11:21:49 - H=3398|OP=[retrieveSubscriber]---------------------------------------------------------
+11:21:49 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+11:21:49 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>524621881553</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+11:21:49 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>2</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+11:21:51 - H=3398|OP=[amountCharging]---------------------------------------------------------
+11:21:51 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+11:21:51 - XMLSent|
+11:21:51 - XMLReceived|
+11:49:50 - H=3399|OP=[retrieveSubscriber]---------------------------------------------------------
+11:49:50 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+11:49:50 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525546051605</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+11:49:50 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+11:59:33 - H=3367|OP=[retrieveSubscriber]---------------------------------------------------------
+11:59:33 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+11:59:33 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>524612121058</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+11:59:33 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+11:59:35 - H=3367|OP=[amountCharging]---------------------------------------------------------
+11:59:35 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+11:59:35 - XMLSent|
+11:59:35 - XMLReceived|
+11:59:37 - H=3367|OP=[retrieveSubscriber]---------------------------------------------------------
+11:59:37 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+11:59:37 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>524612121058</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+11:59:37 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+11:59:39 - H=3367|OP=[amountCharging]---------------------------------------------------------
+11:59:39 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+11:59:39 - XMLSent|
+11:59:39 - XMLReceived|
+12:10:08 - H=3400|OP=[retrieveSubscriber]---------------------------------------------------------
+12:10:08 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+12:10:08 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>522225392468</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+12:10:08 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+14:11:52 - H=3401|OP=[retrieveSubscriber]---------------------------------------------------------
+14:11:52 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+14:11:52 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>522226169780</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+14:11:52 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>2</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+14:11:53 - H=3401|OP=[amountCharging]---------------------------------------------------------
+14:11:53 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+14:11:53 - XMLSent|
+14:11:53 - XMLReceived|
+15:18:59 - H=3402|OP=[retrieveSubscriber]---------------------------------------------------------
+15:18:59 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+15:18:59 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525536231014</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+15:18:59 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+15:19:01 - H=3402|OP=[amountCharging]---------------------------------------------------------
+15:19:01 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+15:19:01 - XMLSent|
+15:19:01 - XMLReceived|
+16:42:49 - H=3403|OP=[retrieveSubscriber]---------------------------------------------------------
+16:42:49 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+16:42:49 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525570082089</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+16:42:49 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>2</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+16:42:51 - H=3403|OP=[amountCharging]---------------------------------------------------------
+16:42:51 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+16:42:51 - XMLSent|
+16:42:51 - XMLReceived|
+17:03:03 - H=3404|OP=[retrieveSubscriber]---------------------------------------------------------
+17:03:03 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+17:03:03 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>528121493000</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+17:03:03 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+17:38:01 - H=3405|OP=[retrieveSubscriber]---------------------------------------------------------
+17:38:01 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+17:38:01 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525562956049</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+17:38:01 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>3G</subMarketId><paymentMethodList>2</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+17:38:03 - H=3405|OP=[amountCharging]---------------------------------------------------------
+17:38:03 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+17:38:03 - XMLSent|
+17:38:03 - XMLReceived|
+18:00:09 - H=3406|OP=[retrieveSubscriber]---------------------------------------------------------
+18:00:09 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+18:00:09 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525549940285</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+18:00:09 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+18:00:10 - H=3406|OP=[amountCharging]---------------------------------------------------------
+18:00:10 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+18:00:10 - XMLSent|
+18:00:10 - XMLReceived|
+20:09:23 - H=3408|OP=[retrieveSubscriber]---------------------------------------------------------
+20:09:23 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+20:09:23 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>528117748562</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+20:09:23 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><paymentMethodList>1</paymentMethodList><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+20:09:25 - H=3408|OP=[amountCharging]---------------------------------------------------------
+20:09:25 - Target|https://sdpvas.nexteldata.com.mx:7443/parlayx-payment/services/AmountChargingService?wsdl
+20:09:25 - XMLSent|
+20:09:25 - XMLReceived|
+21:06:36 - H=3409|OP=[retrieveSubscriber]---------------------------------------------------------
+21:06:36 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+21:06:36 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525544108986</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+21:06:36 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+21:13:26 - H=3410|OP=[retrieveSubscriber]---------------------------------------------------------
+21:13:26 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+21:13:26 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>527772380079</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+21:13:26 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+21:40:16 - H=3411|OP=[retrieveSubscriber]---------------------------------------------------------
+21:40:16 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+21:40:16 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525569232414</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+21:40:16 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>
+21:53:00 - H=3412|OP=[retrieveSubscriber]---------------------------------------------------------
+21:53:00 - Target|https://sdpvas.nexteldata.com.mx:8443/SmdbWebService/subscriber?wsdl
+21:53:00 - XMLSent|<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://ws.sig.smb.ericsson.com/" xmlns:ns2="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"><SOAP-ENV:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                                            <wsse:UsernameToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                                                   	<wsse:Username>WEBMAPS_MX</wsse:Username>
+							<wsse:Password>pay@webmaps</wsse:Password>
+							<wsu:Created>2015-04-20T18:08:49.909Z</wsu:Created>
+                                            </wsse:UsernameToken>
+                                            </wsse:Security></SOAP-ENV:Header><SOAP-ENV:Body><ns1:retrieveSubscriber><msisdn>525569576393</msisdn><serviceCode>CD01</serviceCode></ns1:retrieveSubscriber></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+21:53:00 - XMLReceived|<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:retrieveSubscriberResponse xmlns:ns2="http://ws.mcds.smb.ericsson.com/" xmlns:ns3="http://ws.sig.smb.ericsson.com/"><return><subMarketId>IDEN</subMarketId><countryId>Mexico</countryId></return></ns2:retrieveSubscriberResponse></S:Body></S:Envelope>

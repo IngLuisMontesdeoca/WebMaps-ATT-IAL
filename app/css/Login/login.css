@@ -1,0 +1,467 @@
+﻿/* CSS Document */
+
+/***************************************************************************************
+* @autor:       (IG) Israel Galindo Chavarría <israel.galindo@webmaps.com.mx>          *        
+* @updated                                                                             *
+* @version:     1.0                                                                    *
+* @created:     06/02/2014                                                             *
+* @copyright:   Copyright(c) 2014,Webmaps                                              *
+* @description: Hoja de estilo correspondiente al LogIn para Aprovisionamiento Nextel  *                                           
+***************************************************************************************/
+
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden !important;	
+}
+
+.cssOculta{
+	display:none
+}
+
+
+.cssLHead {
+    height: 150px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+	.cssLHCenter{
+		width:1024px;
+		height:150px;
+		margin:auto;
+	}
+		.cssLHCLogo{
+			width:312px;
+			height:100px;
+			float:left;
+			background:url(images/logoLogin.png) no-repeat center left;
+		}
+		.cssLHCText{
+			width:100%;
+			height:100px;
+			float:left;
+			font:12px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color:#766A62;
+		}
+			.cssLHCText p{
+				padding:2px 0 2px 0;
+				margin:2px 0 2px 0;				
+			}
+
+
+/*START Center*/
+
+.cssLBody {
+    bottom:50px;
+    left: 0;
+    overflow: hidden !important;
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+	.cssLBCenter{
+		width:300px;
+		height:300px;
+		border:1px solid #ccc;
+		margin:auto;
+		position:relative;
+		top:10%;
+		border-radius:5px;
+	}
+		.cssLoginInicio{
+			width:100%;
+			height:100%;
+		}
+			.cssLoginInicio h1{
+				font:bold 29px/2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				width:100%;
+				color:#756962;
+				margin-bottom:20px;
+				margin-top:0;
+				position:relative;
+				top:10px;		
+			}
+		
+		.cssLILine01{
+			width:70%;
+			margin:20px auto 20px auto;
+			padding:0 10px 0 0;
+		}
+			.cssTxt01{
+				width:100%;
+				border:1px solid #ccc;
+				border-radius:2px;
+				padding:4px;
+				font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;	
+			}
+		
+		
+		
+		.cssFL01{
+			margin:0 auto 10px auto;
+			width:74%;
+			height:25px;
+		}
+			.cssFL01 a{
+				font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				width:100%;
+				text-align:center;
+				color:#5AACD6;
+				margin:0 0 0 7px;
+				cursor:pointer;
+			}
+			.cssFL01 a:hover{
+				font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				width:100%;
+				text-align:center;
+				color:#5AACD6;
+				margin:0 0 0 7px;
+				cursor:pointer;
+				text-decoration:underline;
+			}
+			
+			.cssFLBtn01{
+				float:right;
+				width:30px;
+				height:25px;
+				margin-left:10px;
+				background:url(images/spritesLogin.png) -180px 0;
+				cursor:pointer;				
+			}
+			.cssFLBtn01:hover{
+				float:right;
+				width:30px;
+				height:25px;
+				margin-left:10px;
+				background:url(images/spritesLogin.png) -210px 0;
+				cursor:pointer;				
+			}	
+			
+			.cssFLBtn02{
+				float:right;
+				width:90px;
+				height:25px;
+				margin-left:10px;
+				background:url(images/spritesLogin.png) 0 0;
+				cursor:pointer;
+				font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				color:#E05414;		
+			}
+			.cssFLBtn02:hover{
+				float:right;
+				width:90px;
+				height:25px;
+				margin-left:10px;
+				background:url(images/spritesLogin.png) -90px 0;
+				cursor:pointer;
+				font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				color:#fff;				
+			}
+			
+			.cssFLBtn03{
+				float:left;
+				width:90px;
+				height:25px;
+				background:url(images/spritesLogin.png) 0 0;
+				cursor:pointer;
+				font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				color:#E05414;		
+			}
+			.cssFLBtn03:hover{
+				float:left;
+				width:90px;
+				height:25px;
+				background:url(images/spritesLogin.png) -90px 0;
+				cursor:pointer;
+				font:bold 12px/2.2 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-align:center;
+				color:#fff;				
+			}			
+
+
+		.cssFL02{
+			margin:0 auto 10px auto;
+			width:74%;
+			min-height:25px;
+			font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-align:center;
+		}
+		
+		.cssFL03{
+			margin:0 auto 10px auto;
+			width:90%;
+			height:25px;
+		}
+		
+		.cssFL03_01{
+			margin:0 auto 10px auto;
+			width:90%;
+			height:25px;
+		}
+			.cssFL03 div ul{				
+				position:relative;
+				top:15px;
+			}
+		
+			.cssFL03 div{
+				width:90%;
+				position:absolute;
+				bottom:0;
+				font:10px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;
+				margin-bottom:10px;
+			}
+			
+			.cssFL03_01 div{
+				width:73%;
+				position:absolute;
+				bottom:0;
+				font:10px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;
+				margin-bottom:10px;
+				margin-left:25px;
+				text-align:justify;
+			}
+					
+	.cssLoginRequ{
+		width:300px;
+		height:300px;
+	}
+		.cssLRHeader{
+			width:74%;
+			height:15px;
+			margin:15px auto 0 auto;
+		}
+			.cssLRHLeft{
+				width:200px;
+				font:bold 12px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color:#756962;
+				float:left;
+			}	
+			.cssLRHRight{
+				width:15px;
+				height:15px;
+				float:right;
+				position:relative;
+				top:-2px;
+				background:url(images/spritesLogin.png) -240px 0;
+				cursor:pointer;
+				left:21px;
+			}
+			.cssLRHRight:hover{
+				width:15px;
+				height:15px;
+				float:right;
+				position:relative;
+				top:-2px;
+				background:url(images/spritesLogin.png) -255px 0;
+				cursor:pointer;
+				left:21px;
+			}
+			
+			.cssMargLine01{
+				margin-top:60px;
+			}
+			
+			.cssMargTop01{
+				margin-top:50px !important;
+			}
+			
+			.cssCenterMargin{
+				margin:auto !important;
+				float:none !important;
+			}
+
+			
+.cssValidation_Black{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#756962;
+	text-align:center;
+	padding:4px 0 4px 0;	
+	background:#ECEEE7;
+	border-radius:2px;
+}
+
+.cssValidation_Green{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#090;
+	text-align:center;
+	padding:4px 0 4px 0;	
+	background:#ECEEE7;
+	border-radius:2px;
+}
+
+.cssValidation_Yellow{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#F90;
+	text-align:center;
+	padding:4px 0 4px 0;	
+	background:#ECEEE7;
+	border-radius:2px;
+}
+
+.cssValidation_Red{
+	font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#C00;
+	text-align:center;
+	padding:4px 0 4px 0;	
+	background:#ECEEE7;
+	border-radius:2px;
+}
+			
+/*END Center*/
+
+
+.cssLFooter {
+	height: 50px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+	.cssLFCenter{
+		width:1024px;
+		height:50px;
+		margin:auto;
+		border-top:1px solid #ccc;
+	}
+		.cssLFCenter p{
+			width:100%;
+			font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-align:center;
+			color:#756962;
+			padding:2px 0 2px 0;
+			margin:2px 0 2px 0;	
+		}
+		
+
+
+
+.cssLCCenter{
+	float:left;
+	position:relative;
+	top:40px;
+	color:#756962;
+}
+	.cssLCCenter ul{
+		margin:19px 0 19px 0;
+		font:bold 11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding:0 0 0 10px;
+	}
+	
+	.cssLCCenter ul li{
+		margin:4px 0 4px 0;
+		font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		list-style:none;
+		padding:0;
+	}	
+		.cssLCCenter ul li a{
+			text-decoration:none;
+			color:#756962;
+		}
+		.cssLCCenter ul li a:hover{
+			text-decoration:underline;
+			color:#756962;
+		}
+
+hr{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc -moz-use-text-color #FFFFFF;
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 2px 0;
+	width:100%;
+	float:left;
+}
+
+.cssTxtFooter img {
+    margin: 0 5px;
+}
+
+/**/
+
+.cssWH100{
+	width:100%;
+	height:100%;
+}
+
+
+.cssLinkUser01{
+	width:90%;
+	margin:auto;
+	position:relative;
+	top:50%;
+	font:12px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+	.cssLinkUser01 a{
+		color:#5AACD6;
+		text-decoration:none;
+	}
+	.cssLinkUser01 a:hover{
+		color:#5AACD6;
+		text-decoration:underline;
+	}
+
+/*New Styles*/
+.cssLLoad01, .cssLLoad02{
+	background: url("images/spritesLogin.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: transparent !important;
+    cursor: pointer;
+    float: right;
+    font: bold 12px/2.2 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 25px;
+    margin-left: 10px;
+    text-align: center;
+    width: 90px;
+	opacity:0.77;
+}
+.cssLLoad01:hover, .cssLLoad02:hover{
+	background: url("images/spritesLogin.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: transparent !important;
+    cursor:auto !important;
+    float: right;
+    font: bold 12px/2.2 Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 25px;
+    margin-left: 10px;
+    text-align: center;
+    width: 90px;
+	opacity:0.77;
+}
+.cssLLoad01 span{
+	background:url(images/imgLoad01.gif) no-repeat center;
+	width:90px;
+	height:25px;
+	position:absolute;
+	left:130px;
+}
+
+.cssLLoad02 span{
+	background:url(images/imgLoad01.gif) no-repeat center;
+	width:90px;
+	height:25px;
+	position:absolute;
+	left:171px;
+}
+
+
+

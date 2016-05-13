@@ -1,0 +1,206 @@
+
+
+.cssOculta{
+	display:none !important;
+}
+
+.cssImgHeader{
+	background:url(../../images/iAlarmMobile/iAlarm.png) no-repeat center #fff !important;
+	height:35px;
+	width:100%;
+	position:fixed;
+	z-index:9999;
+	border-bottom:1px solid #ccc;			
+}
+
+.cssContent{
+	height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed;
+    width: 100%;
+}
+
+.cssMapArea{	
+	height:100%;
+	width:100%;
+	position:absolute;	
+}
+
+.cssTxtTTF h4{
+	padding:0 10px 0 10px;
+	margin:10px 0 10px 0;
+	font:12px/1 Arial, Helvetica, sans-serif;
+	text-align:center;	
+}
+
+/**/
+
+.ui-bar-a {
+	border:none !important;
+}
+
+.nm_firstBG {
+    background-color: #DBDBDB;
+    background-image: -moz-linear-gradient(center top , #ECECEC, #CCCCCC);
+    border: 0.1em solid #E6E6E6;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    color: #000F1A;
+}
+
+/**/
+
+
+.cssContBar{
+	width:100%;
+	min-height:22px;
+	max-height:50px;
+	position:fixed;
+	/*background:url(../Bar/images/lineBar.png);*/
+	z-index:990;
+	top:40px;	
+}
+
+	.cssBtn01{
+		width:20px;
+		height:20px;
+		margin:0 4px 2px 4px;		
+		float:left;
+		padding:4px;
+		cursor:pointer;
+	}
+	.cssBtn01:hover{
+		width:20px;
+		height:20px;
+		margin:0 4px 2px 4px;		
+		float:left;
+		padding:4px;
+		cursor:pointer;
+		border:1px solid #fff !important;
+	}
+	
+	.cssBtn02{
+		width:20px;
+		height:20px;
+		margin:0 4px 2px 4px;		
+		float:right;
+		padding:4px;
+		cursor:pointer;
+	}
+	.cssBtn02:hover{
+		width:20px;
+		height:20px;
+		margin:0 4px 2px 4px;		
+		float:right;
+		padding:4px;
+		cursor:pointer;
+		border:1px solid #fff !important;
+	}
+	
+.cssIconIHome{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) 0 0;
+	width:20px;
+	height:20px;	 
+}
+
+.cssIconIHome:hover{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -20px 0;
+	width:20px;
+	height:20px;	 
+}	
+	
+
+.cssIconITraffic{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -140px 0;
+	width:20px;
+	height:20px;	 
+}
+.cssIconITraffic:hover{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -160px 0;
+	width:20px;
+	height:20px; 
+}
+.cssActiveTraffic{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -160px 0 !important;
+	width:20px;
+	height:20px; 
+}
+
+
+
+.cssIconTraffic{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -180px 0;
+	width:20px;
+	height:20px;
+}
+.cssIconTraffic:hover{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -200px 0;
+	width:20px;
+	height:20px;
+}
+.cssActiveInccTraffic{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -200px 0 !important;
+	width:20px;
+	height:20px;
+}
+
+
+.cssIconTransp{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -220px 0;
+	width:20px;
+	height:20px;
+}
+.cssIconTransp:hover{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -240px 0;
+	width:20px;
+	height:20px;
+}
+.cssActiveIconTransp{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -240px 0 !important;
+	width:20px;
+	height:20px;
+}
+
+
+.cssIconMap01{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -260px 0;
+	width:20px;
+	height:20px;
+}
+.cssIconMap01:hover{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -280px 0;
+	width:20px;
+	height:20px;
+}
+.cssActiveIconMap01{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -280px 0 !important;
+	width:20px;
+	height:20px;
+}
+
+
+.cssIconMap02{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -300px 0;
+	width:20px;
+	height:20px;
+}
+.cssIconMap02:hover{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -320px 0;
+	width:20px;
+	height:20px;
+}
+.cssActiveIconMap02{
+	background:url(../../images/iAlarmMobile/spriteMobile.png) -320px 0 !important;
+	width:20px;
+	height:20px;
+}
+
+.cssFooter{
+	background:#222 !important;
+	color:#fff !important;
+	text-shadow:none !important;
+}
+
+#spTooltip{
+	font-weight:bold;
+}

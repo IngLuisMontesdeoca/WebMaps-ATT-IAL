@@ -1,0 +1,127 @@
+<!-- MLP_SLIA -->
+		
+<!ENTITY	% extension.param	"">
+		
+<!ELEMENT 	slia	((pos+ | req_id | (result, add_info?)) %extension.param;)>
+<!ATTLIST 	slia 	
+	ver CDATA	#FIXED "3.0.0">
+
+<!-- MLP_LOC -->	
+<!ELEMENT	pos	(msid, (pd | poserr), gsm_net_param?)>
+<!ELEMENT	eme_pos	(msid, (pd | poserr), esrd?, esrk?)>
+<!ELEMENT	trl_pos	(msid, (pd | poserr))>
+<!ATTLIST	trl_pos	
+	trl_trigger (PERIODIC | MS_AVAIL)	#REQUIRED>
+<!ELEMENT 	pd	(time, shape, (alt, alt_acc?)?, speed?, direction?, lev_conf?)>
+<!ELEMENT 	poserr	(result, add_info?, time)>
+<!ELEMENT	add_info	(#PCDATA)>
+<!ELEMENT 	result	(#PCDATA)>
+<!ATTLIST 	result 	
+	resid CDATA	#REQUIRED>
+<!ELEMENT	time	(#PCDATA)>
+<!ATTLIST	time	
+	utc_off CDATA	"0000">
+<!ELEMENT 	alt	(#PCDATA)>
+<!ELEMENT 	alt_acc	(#PCDATA)>
+<!ELEMENT	direction	(#PCDATA)>
+<!ELEMENT 	speed	(#PCDATA)>
+<!ELEMENT 	lev_conf	(#PCDATA)>
+<!ELEMENT	geo_info	(CoordinateReferenceSystem)>
+<!ELEMENT	CoordinateReferenceSystem	(Identifier)>
+<!ELEMENT	Identifier	(code, codeSpace, edition)>
+<!ELEMENT	code	(#PCDATA)>
+<!ELEMENT	codeSpace	(#PCDATA)>
+<!ELEMENT	edition	(#PCDATA)>
+
+
+
+<!-- MLP_ID -->	
+		
+<!ELEMENT	msid	(#PCDATA)>
+<!ATTLIST 	msid	
+	type (MSISDN | IMSI | IMEI | MIN | MDN | EME_MSID | ASID | OPE_ID | IPV4 | IPV6 | SESSID)	"MSISDN"
+	enc (ASC | CRP)	"ASC">
+<!ELEMENT	msid_range	(start_msid, stop_msid)>
+<!ELEMENT	msids	(((msid, codeword?, session?) | (msid_range, codeword*))+)>
+<!ELEMENT	codeword	(#PCDATA)>
+<!ELEMENT	esrd	(#PCDATA)>
+<!ATTLIST	esrd	
+	type (NA)	"NA">
+<!ELEMENT	esrk	(#PCDATA)>
+<!ATTLIST	esrk	
+	type (NA)	"NA">
+<!ELEMENT	session	(#PCDATA)>
+<!ATTLIST	session	
+	type (APN | DIAL)	#REQUIRED>
+<!ELEMENT	start_msid	(msid)>
+<!ELEMENT	stop_msid	(msid)>
+
+<!-- MLP_SHAPE -->	
+<!ELEMENT 	shape	(Point | LineString | Polygon | Box | CircularArea | CircularArcArea | EllipticalArea | GeometryCollection | MultiLineString | MultiPoint | MultiPolygon)>
+<!ELEMENT	distanceUnit	(#PCDATA)>
+<!ELEMENT	angularUnit	(#PCDATA)>
+<!ELEMENT	angle	(#PCDATA)>
+<!ELEMENT	coord	(X, Y?, Z?)>
+<!ELEMENT	X	(#PCDATA)>
+<!ELEMENT	Y	(#PCDATA)>
+<!ELEMENT	Z	(#PCDATA)>
+<!ELEMENT	Point	(coord)>
+<!ATTLIST	Point	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	LineString	(coord, coord+)>
+<!ATTLIST	LineString	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	Box	(coord, coord)>
+<!ATTLIST	Box	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	LinearRing	(coord, coord, coord, coord*)>
+<!ATTLIST	LinearRing	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	Polygon	(outerBoundaryIs, innerBoundaryIs*)>
+<!ATTLIST	Polygon	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	outerBoundaryIs	(LinearRing)>
+<!ELEMENT	innerBoundaryIs	(LinearRing)>
+<!ELEMENT	CircularArcArea	(coord, inRadius, outRadius, startAngle, stopAngle, angularUnit?, distanceUnit?)>
+<!ATTLIST	CircularArcArea	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	CircularArea	(coord, radius, distanceUnit?)>
+<!ATTLIST	CircularArea	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	EllipticalArea	(coord, angle, semiMajor, semiMinor, angularUnit, distanceUnit?)>
+<!ATTLIST	EllipticalArea	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	inRadius	(#PCDATA)>
+<!ELEMENT	outRadius	(#PCDATA)>
+<!ELEMENT	radius	(#PCDATA)>
+<!ELEMENT	semiMajor	(#PCDATA)>
+<!ELEMENT	semiMinor	(#PCDATA)>
+<!ELEMENT	startAngle	(#PCDATA)>
+<!ELEMENT	stopAngle	(#PCDATA)>
+<!ELEMENT	GeometryCollection	(shape+)>
+<!ATTLIST	GeometryCollection	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	MultiLineString	(LineString+)>
+<!ATTLIST	MultiLineString	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	MultiPoint	(Point+)>
+<!ATTLIST	MultiPoint	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+<!ELEMENT	MultiPolygon	((Polygon| Box | CircularArea | CircularArcArea | EllipticalArea)+)>
+<!ATTLIST	MultiPolygon	
+	gid ID	#IMPLIED
+	srsName CDATA	#IMPLIED>
+
+
+

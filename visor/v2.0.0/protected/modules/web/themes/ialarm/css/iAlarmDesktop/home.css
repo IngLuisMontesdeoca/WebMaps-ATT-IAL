@@ -1,0 +1,1623 @@
+body, html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.cssOculta{
+	display:none;
+}
+
+.cssOcultaHard{
+	display:none !important;
+}
+
+/*START Header*/
+
+.cssHeader{	
+    height: 120px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;	
+}
+
+	.cssHInt{
+		height: 110px;		
+		width: 100%;
+		margin:0 0 10px 0;
+		background:url(../../images/iAlarmDesktop/imgBanner01.png) center;		
+	}	
+	
+	
+	
+	
+	.cssWest{
+		float: left;
+		height: 100%;		
+		position: relative;
+		width: 250px;		
+	}
+	
+	
+	.styleWestShort{
+		float: left;
+		height: 100%;		
+		position: relative;
+		width:10px;				
+	}
+	
+		.cssCText{
+			width:238px;
+			height:100%;			
+			float:left;
+			overflow:hidden;
+		}
+		
+		.cssCTextSmall{
+			width:0;
+			height:100%;			
+			float:left;
+			overflow:auto;
+		}
+	
+	
+		.cssCPestana{
+			width:10px;
+			height:100%;		
+			float:right;
+			border-left:1px solid #ccc;
+			border-right:1px solid #ccc;
+		}
+		
+			.cssCont {
+				display: table;
+				height: 100%;
+				margin: 0;
+				width: 100%;
+			}
+			
+			.cssContInt {
+				display: table-cell;
+				position: relative;
+				vertical-align: middle;
+			}
+			
+				.cssContInt table{
+					height:100%;					
+				}
+			
+			
+			
+			.styleCInner {   
+				margin: 0 auto;    
+				width: 100%;
+				/*background:#003671;*/
+				/*padding:10px 0 10px 0;*/
+				height:60px;
+				cursor:pointer;
+			}
+			
+			.cssCIInt{
+				width:10px;
+				height:60px;				
+				cursor:pointer;
+				background:#E05515;
+				position:relative;
+				left:-3px;									
+			}
+			
+			.cssCIInt:hover{
+				width:10px;
+				height:60px;				
+				cursor:pointer;
+				background:#E05515;
+				position:relative;
+				left:-3px;								
+			}
+			
+			.styleWpestana{
+				width:25px;
+				height:39px;
+			}
+
+/*END Header*/
+
+
+
+
+/*START Contenido*/
+.cssContenedor {
+    bottom: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 119px;
+	border-top:1px solid #ccc;	
+}
+
+.cssBody{
+	height: 100%;
+    overflow: auto;
+    position: absolute;
+    width: 100%;	
+}
+
+.cssBodyInt{
+	height: 100%;
+    overflow: auto;
+    position: absolute;
+    width: 100%;	
+}
+
+
+
+	.cssCLeft{
+		float: left;
+		height: 100%;
+		overflow: hidden;
+   		position: relative;		
+	}
+	
+	
+		/*START Center*/
+		.cssCRight{
+			height: 100%;
+			margin: 0 0 0 250px;
+			overflow: auto;
+			position: relative;	
+		}
+		
+		.cssCRightLarge{
+			height: 100%;
+			margin: 0 0 0 10px;
+			position: relative;
+		}
+		
+			.cssCRTop{
+				height: 22px;
+				left: 0;
+				margin: 0;
+				position: absolute;
+				right: 0;
+				top: 0;				
+			}
+			
+		
+			
+			.cssCRCenter {
+				bottom: 1px;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 22px;				
+			} 
+			
+				.cssCRC01{
+					width:100%;
+					height:100%;					
+					position:absolute;
+					overflow:auto;
+				}
+			
+			.cssCRBottom {				
+				bottom: 0;
+				height: 1px;
+				left: 0;
+				margin: 0;
+				position: absolute;
+				right: 0;
+				background:#f5f5f5;							
+			}	
+			
+			.styleCBLine{
+				width:96%;
+				height:200px;
+				margin:10px auto 0 auto;	
+			}
+			
+				.styleCGrill{
+					width:20%;
+					*width:19.9%;
+					height:200px;			
+					float:left;					
+				}
+				
+					.styleCGInt{
+						width:96%;
+						height:96%;
+						margin:1%;
+						border-radius:20px;					
+					}
+					
+						.styleBgGreen{
+							background:#95F995;				
+						}
+						
+						.styleBgRed{
+							background:#FF0000;				
+						}
+						
+						.styleBgYellow{
+							background:#FFFF99;				
+						}
+					
+						
+						.styleGGIIcon{
+							width:90px;
+							height:90px;
+							margin:auto;
+							background:url(../images/sprite.png) 0 -39px no-repeat;										
+						}
+						
+						.styleGGIText{
+							width:90%;
+							margin:auto;
+						}
+						
+							.styleGGIText h2{						
+								padding:5px;					
+								font:12px/1 Arial, Helvetica, sans-serif;
+								text-align:center;						
+								border-radius:5px;
+								background:url(../images/bgWhite01.png);					
+							}
+						
+						.styleGGIBtn{
+							width:100px;
+							height:42px;
+							margin:auto;					
+						}
+			
+		/*END Center*/
+
+
+/*END Contenido*/
+
+
+
+.cssFooter {    
+    bottom: 0;
+    height: 4px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+	border-top:1px solid #ccc;		
+}
+
+.styleHide{
+	display:none;
+}
+
+
+
+
+.cssHRMenu{
+	float:left;
+	height:100%;
+	padding:0 12px 0 12px;
+}
+
+	.cssHRMenu h2{
+		font:14px/1 Arial, Helvetica, sans-serif;
+		color:#fff;
+		position:relative;
+		top:30%;
+		margin-left:5px;
+		margin-right:5px;
+		cursor:pointer;
+		text-decoration:none;					
+	}
+	
+	.cssHRMenu h2:hover{
+		font:14px/1 Arial, Helvetica, sans-serif;		
+		position:relative;
+		top:30%;
+		margin-left:5px;
+		margin-right:5px;
+		cursor:pointer;
+		color:#f9f9f9;
+		text-decoration:underline;					
+	}
+
+/*START Bar*/
+
+.cssIframeBar{
+	width:100% !important;
+	position:relative;
+	top:0;		
+}
+
+.cssContBar{
+	width:100%;
+	min-height:22px;
+	max-height:50px;
+	position:absolute;
+	background:url(../../images/iAlarmDesktop/lineBar.png);
+	z-index:990;
+	border-bottom:1px solid #ccc;		
+}
+
+.cssCB02{
+		width:120px;
+		height:20px;
+		float:left;		
+		cursor:pointer;
+		margin:1px 2px 1px 2px;
+	}
+	
+		.cssCBSLeft{
+			width:15px;
+			height:20px;
+			float:left;
+		}
+		
+		.cssCBSCenter{
+			width:90px;
+			height:20px;
+			float:left;
+		}
+		
+		.cssCBSRight{
+			width:15px;
+			height:20px;
+			float:left;
+		}
+
+.cssCB01{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) 0 0;
+	margin:0 0 0 2px;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}
+.cssCB01:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -20px 0;
+	margin:0 0 0 2px;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}
+.cssCB01Active{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -20px 0;
+	margin:0 0 0 2px;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}
+
+
+
+.cssCB02{
+	width:147px;
+	*width:140px;
+	height:20px;
+	float:left;		
+	cursor:pointer;
+	margin:0 0 0 0;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}
+
+.cssCB03{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -100px 0;
+	margin:0 2px 0 0;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}	
+
+
+.cssCB03Active{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -120px 0;
+	margin:0 2px 0 0;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}
+
+.cssCB03:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -120px 0;
+	margin:0 2px 0 0;
+	position:relative;
+	top:1px;	
+	cursor:pointer;
+}
+
+.cssCB04{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -140px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}	
+.cssCB04:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -160px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+.cssCB05{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -180px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}	
+.cssCB05:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -200px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+.cssCB05Active{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -200px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+
+
+.cssCB06{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -220px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}	
+.cssCB06:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -240px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+.cssCB06Active{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -240px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+.cssCB07{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -260px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+	display:none;
+}	
+.cssCB07:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -280px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+	display:none;
+}
+
+.cssCB08{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -300px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}	
+.cssCB08:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(images/spriteIL6_01.png) -320px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+.cssCB09{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -340px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}	
+.cssCB09:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -360px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+.cssCB10{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -380px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}	
+.cssCB10:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -400px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+.cssCB11{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -458px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+.cssCB11:hover{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -478px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+.cssCB11Active{
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../../images/iAlarmDesktop/spriteIL6_01.png) -478px 0;
+	margin:0 2px 0 2px;
+	position:relative;
+	top:1px;
+	cursor:pointer;
+}
+
+
+
+.cssToolIncidencias{
+	width:100px;
+	height:25px;	
+	position:absolute;
+	z-index:999;
+}
+
+.cssToolTop{
+	width:15px;
+	height:5px;
+	margin:auto auto;
+	background:url(../../images/iAlarmDesktop/arrowTool.png);	
+	position:relative;
+	z-index:999;
+	top:1px;
+}
+
+.cssToolBody{
+	margin:auto auto;	
+	width:100%;
+	height:100%;
+	background:#fff;
+	border:1px solid #999;
+	border-radius:0 0 5px 5px;
+	position:relative;
+	z-index:900;
+}
+
+/*START Tooltip 01*/
+.cssTool001{
+	width:20px;		
+	height:20px;
+	float:right;	
+	cursor:pointer;
+}
+
+a.tool:hover span.cssToolBody001 {
+	display: block; 
+	position: absolute; 
+	top:11px;
+	left:-46px;	
+	/*background:url(images/bgTool01.png) no-repeat center;*/
+	cursor:auto;
+}
+
+.cssTBOp01{
+	width:24px;
+	height:25px;
+	float:left;
+	font:11px/1 Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+	.cssActiveIncc{
+		width:20px;		
+		border-radius:3px;
+		background:#fff;
+		color:#E05515;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		margin:auto auto;
+		padding:2px 0 4px 0;		
+	}
+	.cssActiveIncc:hover{
+		width:20px;		
+		border-radius:3px;
+		background:#E05515;
+		color:#fff;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		padding:2px 0 4px 0;		
+	}
+	.cssIncidenciaActive{
+		width:20px;		
+		border-radius:3px;
+		background:#E05515 !important;
+		color:#fff !important;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		margin:auto auto;
+		padding:2px 0 4px 0;		
+	}	
+	
+	
+	
+.cssTBOp02{
+	width:20px;
+	height:25px;
+	float:left;
+	font:11px/1 Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+	.cssTBOp02 div{
+		width:20px;		
+		border-radius:3px;
+		background:#fff;
+		color:#E05515;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		margin:auto auto;
+		padding:2px 0 4px 0;		
+	}
+	.cssTBOp02 div:hover{
+		width:20px;		
+		border-radius:3px;
+		background:#E05515;
+		color:#fff;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		padding:2px 0 4px 0;		
+	}
+
+.cssTBOp03{
+	width:100px;
+	height:25px;
+	float:left;
+	font:11px/1 Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+	.cssTBOp03 div{
+		width:50px;		
+		border-radius:3px;
+		background:#fff;
+		color:#E05515;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		margin:auto auto;
+		padding:2px 0 4px 0;		
+	}
+	.cssTBOp03 div:hover{
+		width:50px;		
+		border-radius:3px;
+		background:#fff;
+		color:#E05515;
+		position:relative;
+		top:4px;
+		cursor:pointer;
+		padding:2px 0 4px 0;
+		text-decoration:underline;		
+	}
+/*END Tooltip 01*/
+
+/*START Tooltip 02*/
+.cssTool002{
+	width:20px;		
+	height:20px;
+	float:right;	
+	cursor:pointer;
+}
+a.tool:hover span.cssToolBody002 {
+	display: block; 
+	position: absolute; 
+	top:11px;
+	left:-66px;	
+	/*background:url(images/bgTool01.png) no-repeat center;*/
+	cursor:auto;
+}
+.cssToolTrafico{
+	width:150px;
+	height:50px;	
+	position:absolute;
+	z-index:999;
+	left:0;
+	top:5px;
+}
+.cssTBTraficHeader{
+	width:100%;
+	padding:5px 0 5px 0;
+}
+	.cssTBTraficHeader h2{
+		font:11px/1 Arial, Helvetica, sans-serif;
+		text-align:center;
+		margin:0;
+	}
+.cssTBTraficBody{
+	width:100%;
+}
+
+.cssTBTBColor{
+	width:90%;
+	height:5px;	
+	margin:auto auto;	
+}
+	.cssTBTBC01{
+		width:20%;
+		height:5px;
+		background:#0C6;
+		float:left;
+	}
+	.cssTBTBC02{
+		width:25%;
+		height:5px;
+		background:#FC6;
+		float:left;
+	}
+	.cssTBTBC03{
+		width:25%;
+		height:5px;
+		background:#F30;
+		float:left;
+	}
+	.cssTBTBC04{
+		width:25%;
+		height:5px;
+		background:#000;
+		float:left;
+	}
+
+.cssTBTBText01{
+	width:50px;
+	margin:0 0 0 9px;
+	float:left;
+	font:10px/1 Arial, Helvetica, sans-serif;
+}
+.cssTBTBText02{
+	width:50px;
+	margin:0 0 0 0;
+	float:right;
+	font:10px/1 Arial, Helvetica, sans-serif;
+}
+/*START Tooltip 02*/
+
+/*START Tooltip 03*/
+.cssTool003{
+	width:20px;		
+	height:20px;
+	float:right;	
+	cursor:pointer;
+}
+a.tool:hover span.cssToolBody003 {
+	display: block; 
+	position: absolute; 
+	top:11px;
+	left:-36px;	
+	/*background:url(images/bgTool01.png) no-repeat center;*/
+	cursor:auto;
+}
+.cssToolMap{
+	width:200px;
+	height:30px;	
+	position:absolute;
+	z-index:999;
+	left:-55px;
+	top:5px;	
+}
+
+.cssTBModeMapL{
+	width:33%;
+	height:25px;
+	float:left;
+	font:11px/1 Arial, Helvetica, sans-serif;
+	position:relative;
+	top:4px;	
+}
+.cssTBModeMapR{
+	width:33.5%;
+	height:25px;
+	float:right;
+	font:11px/1 Arial, Helvetica, sans-serif;
+	position:relative;
+	top:4px;
+}
+
+	.cssTBMML01{
+		width:80%;
+		margin:auto auto;
+		padding:4px;
+		color:#E05515;
+		background:#fff;
+		text-align:center;
+		border-radius:3px;
+		position:relative;
+		top:3px;
+		cursor:pointer;		
+	}
+	.cssTBMML01:hover{
+		width:80%;
+		margin:auto auto;
+		padding:4px;
+		color:#fff;
+		background:#E05515;
+		text-align:center;
+		border-radius:3px;
+		position:relative;
+		top:3px;
+		cursor:pointer;		
+	}	
+	.cssTMActive{
+		width:80%;
+		margin:auto auto;
+		padding:4px;
+		color:#fff !important;
+		background:#E05515 !important;
+		text-align:center;
+		border-radius:3px;
+		position:relative;
+		top:3px;
+		cursor:pointer;		
+	}				
+/*END Tooltip 03*/	
+
+.cssLoadingTraffic{
+	width:100%;
+	height:100%;
+	background:url(images/imgLoad.gif) center no-repeat;
+	position:absolute;
+	z-index:99999;
+}
+
+.cssGGHelp{
+	float:right;
+	position:relative;
+	top:5px;	
+	padding:0 78px 0 10px;
+}
+	.cssGGHeaderGeo{
+		text-align:center;
+		font:bold 11px/1 Arial, Helvetica, sans-serif;
+		color:#0EB8DA;
+		text-decoration:underline;
+		cursor:pointer;
+	}
+	.cssGGHeaderGeo:hover{
+		text-align:center;
+		font:bold 11px/1 Arial, Helvetica, sans-serif;
+		color:#0EB8DA;
+		text-decoration:none;
+		cursor:pointer;
+	}
+	
+	.cssGGBodyGeo{
+		width:217px;			
+		position:absolute;
+		z-index:999;
+		left:-35px;
+		float:right;
+		top:12px;		
+	}
+	
+	.cssGGBodyGeorutas{
+		width:217px;			
+		position:absolute;
+		z-index:999;
+		left:-43px;
+		float:right;
+		top:12px;		
+	}
+	
+	.cssGeoToolBody{
+		margin:auto auto;	
+		width:100%;
+		height:100%;
+		background:#fff;
+		border:1px solid #999;
+		border-radius:0 0 5px 5px;
+		position:relative;
+		z-index:900;
+	}
+		.cssTBInt{
+			width:90%;
+			margin:5px auto 0 auto;
+			font:11px/1 Arial, Helvetica, sans-serif;
+			color:#756962;			
+		}		
+		
+		
+			.cssTBInt p{
+				font:11px/1 Arial, Helvetica, sans-serif;				
+				margin:4px 0 5px 0;		
+			}
+			
+			.cssTBInt div{
+				width:100%;
+				font:bold 11px/1 Arial, Helvetica, sans-serif !important;				
+				margin:15px 0 0;		
+			}
+			
+			.cssGeoLinkClose{
+				color:#5AACD6;
+				font-weight:bold;
+				text-decoration:underline;
+				cursor:pointer;
+			}
+			.cssGeoLinkClose:hover{
+				color:#5AACD6;
+				font-weight:bold;
+				text-decoration:none;
+				cursor:pointer;
+			}
+	/*start help*/
+	.cssGGBodyHelp{
+		width:280px;			
+		position:absolute;
+		z-index:999;
+		left:134px;
+		*left:128px;
+		float:right;
+		top:17px;		
+	}
+		.cssHelpToolBody{
+			margin:auto auto;	
+			width:100%;
+			height:100%;
+			background:#fff;
+			border:1px solid #999;
+			border-radius:0 0 5px 5px;
+			position:relative;
+			z-index:900;
+			float:left;
+		}
+		.cssTBIHLineHeader{
+			width:100% !important;
+			float:left !important;
+			margin:5px auto 5px auto !important;
+		}
+			.cssTBIHLHLeft{
+				width:45% !important;
+				float:left !important;
+				margin:0 !important;
+				text-align:center;
+				padding:5px 5px 10px 5px !important;
+				border-radius:4px 4px 0 0 !important;				 				
+			}
+			.cssTBIHLHLeft:hover{
+				width:45% !important;
+				float:left !important;
+				margin:0 !important;
+				text-align:center;
+				padding:5px 5px 10px 5px !important;;
+				border-radius:4px 4px 0 0 !important;
+				background:#E05515 !important;
+				color:#fff !important;
+				cursor:pointer;				 				
+			}
+			
+			.cssTBIHLHRight{
+				width:45% !important;
+				float:right !important;
+				margin:0 !important;
+				text-align:center;
+				padding:5px 5px 10px 5px !important;
+				border-radius:4px 4px 0 0 !important;											
+			}
+			.cssTBIHLHRight:hover{
+				width:45% !important;
+				float:right !important;
+				margin:0 !important;
+				text-align:center;
+				padding:5px 5px 10px 5px !important;
+				border-radius:4px 4px 0 0 !important;
+				background:#E05515 !important;
+				color:#fff !important;
+				cursor:pointer;								
+			}
+			
+			.cssTBIHLHActive{				
+				background:#E05515 !important;
+				color:#fff !important; 				
+			}
+		
+		.cssTBIHBody{
+			width:250px;
+			height:250px;
+			float:left;
+			margin:0 0 10px 0 !important;			
+			border:1px solid #E05515;
+			padding:5px 0 5px 0 !important;
+			position:relative !important;
+			top:-5px !important;
+		}
+		
+		.cssHelp01{
+			background:url(../../images/iAlarmDesktop/imgHelpMouse.png) no-repeat center;
+		}
+		.cssHelp02{
+			background:url(../../images/iAlarmDesktop/imgHelpTraffic.png) no-repeat center;
+		}
+	/*end help*/
+
+/*END Bar*/
+
+
+
+
+/**/
+
+.cssCTInt{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+	.cssCTTop{	
+		height: 23px;
+		left: 0;
+		margin: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background:#000;
+	}
+		.cssCTTop h2{
+			font:bold 12px/1 Arial, Helvetica, sans-serif;
+			text-align:center;
+			position:relative;
+			top:5px;
+			color:#fff;
+			margin:0;
+			width:218px;
+			float:left;
+			text-align:center;
+		}
+		
+	.cssCTCenter {
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 23px;		
+	}
+	
+	.cssCTBody {
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		/*height: 165px;*/			
+	}
+	
+	.cssCTFooter {
+		bottom: 0;		
+		left: 0;
+		margin: 0;
+		position: absolute;
+		right: 0;		
+		top: 189px;
+		overflow:auto;		
+	}
+
+.CTBLine01{
+	width:100%;
+	min-height:50px;
+	max-height:70px;
+	float:left;
+	background:#F9F9F9;
+}
+
+.CTBLine02{
+	width:100%;
+	min-height:50px;
+	max-height:70px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	float:left;
+	background:#F9F9F9;
+}
+	.CTBL_01{
+		width:39px;
+		min-height:50px;
+		max-height:70px;
+		float:left;
+		height:100%;
+	}
+	
+		.cssGlobeGreen{
+			background:url(../../images/iAlarmDesktop/globeGreen.png) center no-repeat;
+		}
+		
+		.cssGlobeOrange{
+			background:url(../../images/iAlarmDesktop/globeOrange.png) center no-repeat;
+		}
+		
+		.cssGlobeRed{
+			background:url(../../images/iAlarmDesktop/globeRed.png) center no-repeat;
+		}
+		
+		.cssGlobeBlue{
+			background:url(../../images/iAlarmDesktop/globeBlue.png) center no-repeat;
+		}
+	
+	
+	.CTBL_02{
+		width:160px;
+		min-height:50px;
+		max-height:70px;
+		float:left;
+		border-left:1px solid #ccc;
+		border-right:1px solid #ccc;
+		height:100%;
+	}
+		.CTBL_02 p{
+			font:11px/1 Arial, Helvetica, sans-serif;
+			padding:1px 4px 1px 4px;
+			margin:0;
+		}
+		
+	.CTBL_03{
+		width:37px;
+		min-height:50px;
+		max-height:70px;
+		float:left;
+		height:100%;					
+	}
+	
+	.CTBLIconUp{
+		width:37px;
+		height:50px;		
+		float:left;		
+		background:url(../../images/iAlarmDesktop/sprite01.png) 0 0;
+		cursor:pointer;				
+	}
+	
+	.CTBLIconUp:hover{
+		width:37px;
+		height:50px;
+		float:left;		
+		background:url(../../images/iAlarmDesktop/sprite01.png) -37px 0;
+		cursor:pointer;				
+	}
+	
+	.CTBLIconDown{
+		width:37px;
+		height:50px;		
+		float:left;		
+		background:url(../../images/iAlarmDesktop/sprite01.png) -74px 0;
+		cursor:pointer;				
+	}
+	
+	.CTBLIconDown:hover{
+		width:37px;
+		height:50px;
+		float:left;		
+		background:url(../../images/iAlarmDesktop/sprite01.png) -111px 0;
+		cursor:pointer;				
+	}
+	
+	
+.CTBLine03{
+	float:left;
+	width:100%;
+}
+
+
+	.cssBtn01{
+		width:90px;
+		height:24px;
+		background:url(../../images/iAlarmDesktop/bgBtn01.png);
+		font:bold 11px/2.2 Arial, Helvetica, sans-serif;
+		text-align:center;			
+		cursor:pointer;	
+		margin:5% auto 0 auto;
+		color:#E05414;
+	}
+	.cssBtn01:hover{
+		width:90px;
+		height:24px;
+		background:url(../../images/iAlarmDesktop/bgBtn01Hover.png);
+		font:bold 11px/2.2 Arial, Helvetica, sans-serif;
+		text-align:center;			
+		cursor:pointer;	
+		color:#FFF;
+		margin:5% auto 0 auto;
+	}
+	
+	.cssBtnCenterLeft{
+		width:90px;
+		height:24px;
+		background:url(../../images/iAlarmDesktop/bgBtn01.png);
+		font:bold 11px/2.2 Arial, Helvetica, sans-serif;
+		text-align:center;			
+		cursor:pointer;			
+		color:#E05414;
+		float:left;
+		margin:16px 0 0 20px;
+	}
+	.cssBtnCenterLeft:hover{
+		width:90px;
+		height:24px;
+		background:url(../../images/iAlarmDesktop/bgBtn01Hover.png);
+		font:bold 11px/2.2 Arial, Helvetica, sans-serif;
+		text-align:center;			
+		cursor:pointer;			
+		color:#fff;
+		float:left;
+		margin:16px 0 0 20px;
+	}
+	
+	
+	
+	.cssBtnCenterRight{
+		width:90px;
+		height:24px;
+		background:url(../../images/iAlarmDesktop/bgBtn01.png);
+		font:bold 11px/2.2 Arial, Helvetica, sans-serif;
+		text-align:center;			
+		cursor:pointer;			
+		color:#E05414;
+		float:right;
+		margin:16px 20px 0 0;
+	}
+	.cssBtnCenterRight:hover{
+		width:90px;
+		height:24px;
+		background:url(../../images/iAlarmDesktop/bgBtn01Hover.png);
+		font:bold 11px/2.2 Arial, Helvetica, sans-serif;
+		text-align:center;			
+		cursor:pointer;			
+		color:#fff;
+		float:left;
+		margin:16px 0 0 20px;
+	}
+	
+	
+	
+
+.cssContRuteo{
+	width:100%;
+	border:none;
+	background:#ccc;
+	font:11px/1 Arial, Helvetica, sans-serif;
+}
+
+	.cssContRuteo tbody{
+		background:#fff;
+	}
+
+	.cssCR01{
+		width:15%;
+		padding:6px 5px 6px 5px;
+	}
+		.cssCR01 div{
+			margin:auto auto;
+			width:10px;
+		}
+		
+		.cssCR01 div img{					
+		}
+		
+	.cssCR02{
+		width:85%;
+		padding:5px;
+		padding:6px 5px 6px 5px;
+	}
+	
+	.cssZebra01{
+		background:#f9f9f9;
+	}	
+	.cssZebra02{
+		background:#fff;
+	}
+	
+.cssLoading01{
+	width:100%;
+	height:150px;
+	background:url(../../images/iAlarmDesktop/loading01.gif) no-repeat center;
+}
+.cssLoading02{
+	width:100%;
+	height:150px;
+	background:url(../../images/iAlarmDesktop/loading02.gif) no-repeat center;
+}
+.cssLoading03{
+	width:100%;
+	height:150px;
+	background:url(../../images/iAlarmDesktop/loading03.gif) no-repeat center;
+}
+
+.cssIFImg{
+	position:relative;
+	left:-10px;
+}
+
+.cssIconFoot{
+	position:relative;
+	top:-15px;
+	cursor:pointer !important;
+}
+
+.nm_infoBubble {
+    white-space: normal !important;
+}
+
+/**/
+
+.cssHIconLoad{
+	width:20px;
+	height:23px;
+	float:right;
+	background:url(../../images/iAlarmDesktop/sprite02.png) 0 0;
+	cursor:pointer;
+}
+.cssHIconLoad:hover{
+	width:20px;
+	height:23px;
+	float:right;
+	background:url(../../images/iAlarmDesktop/sprite02.png) -20px 0;
+	cursor:pointer;
+}
+/*
+.cssContRuteo{
+	width:238px;
+	height:94%;
+	background:#fff;
+	opacity:.9;
+	position:absolute;
+	right:5px;
+	z-index:100;
+	top:28px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}*/
+
+.cssContRuteo01{	
+	width:238px;
+	height:94%;
+	background:#fff;
+	opacity:.9;
+	position:absolute;
+	right:5px;
+	z-index:100;
+	top:28px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+
+.cssContRuteo02{	
+	width:238px;
+	height:4%;
+	background:#fff;
+	opacity:.9;
+	position:absolute;
+	right:5px;
+	z-index:100;
+	top:28px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+
+.cssTitleRuteo{
+	width:100%;	
+	background:#000;
+	border-radius:5px 5px 0 0;
+	height:23px;
+}
+
+.cssTRLeft{
+	float:left;
+	font:bold 12px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#fff;
+	text-align:center;
+	padding:5px 0 5px 0;
+	width:210px;
+}
+
+.cssIconMin, .cssIconMax{
+	width:28px;
+	height:23px;
+	float:right;
+	background:url(../../images/iAlarmDesktop/sprite02.png) -40px 0;
+	cursor:pointer;	
+}
+.cssIconMin:hover, .cssIconMax:hover{
+	width:28px;
+	height:23px;
+	float:right;
+	background:url(../../images/iAlarmDesktop/sprite02.png) -68px 0;
+	cursor:pointer;	
+}
+
+.cssCTCHeader{
+	height:59px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	border-bottom:1px solid #ccc;
+}
+	.cssCTCHLeft{
+		width:39px;
+		border-right:1px solid #ccc;
+		float:left;
+		height:60px;
+	}
+	.cssCTCHRight{
+		width:198px;
+		float:right;
+		height:60px;
+		font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+		.cssCTCHRight a{
+			margin:4px;
+			float:left;
+		}
+	
+
+.cssCTCBody{	
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow:auto;
+}
+
+.cssTblHistorico01{
+	width:100%;
+	margin:0;
+	border:none;
+	font:11px/1 Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:#ccc;
+}
+
+	.cssTblHistorico01 tbody{
+		background:#f7f7f7;
+		text-align:center;
+		cursor:pointer;
+	}
+		.cssTdHisto01{
+			width:17%;
+			padding:4px;					
+		}
+		.cssTdHisto01:hover{
+			width:17%;
+			padding:4px;
+			background:#f1f1f1;					
+		}
+		
+		.cssTdHisto02{
+			width:62%;
+			padding:4px;				
+		}
+		.cssTdHisto02:hover{
+			width:62%;
+			padding:4px;
+			background:#f1f1f1;					
+		}
+		
+		.cssTdHisto03{
+			width:21%;
+			padding:4px;				
+		}
+		.cssTdHisto03:hover{
+			width:21%;
+			padding:4px;
+			background:#f1f1f1;					
+		}
+
+
+/*New Style 14-05-14 */
+.cssTolMaplinfo{
+	padding:5px;
+	background:#fff;
+	border-radius:5px;
+	white-space: normal !important;
+	color:#000;
+}
+.cssTolMaplinfo01{
+	padding:5px;
+	background:#fff;
+	white-space: normal !important;
+	color:#000;
+}
+		
+	
+
